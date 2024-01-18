@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Celsius a Fahrenheit</title>
+    <script>
+        function ConvertirCaF(C) {
+            var CaF = (C * 9/5) + 32;
+            return CaF;
+        }
+
+        //Esta función la voy a asociar al botón para convertir los grados
+        function EjecutarCaF() {
+            var C = CampoCelsius.value;
+            var result = ConvertirCaF(C)
+            alert(result);
+        }
+
+    </script>
+</head>
+<body>
+    <h1>Conversor de Grados Celsius a Fahrenheit</h1>
+    <p>Introduce el valor que deseas convertir</p>
+
+    Grados
+    Celsius: <input type="number" id="CampoCelsius" />
+    <button onclick="EjecutarCaF()">Convertir</button>
+
+</body>
+</html>

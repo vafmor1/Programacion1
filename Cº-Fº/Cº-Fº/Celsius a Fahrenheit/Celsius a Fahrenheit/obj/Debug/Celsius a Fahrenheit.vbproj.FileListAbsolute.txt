@@ -1,0 +1,63 @@
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\bin\Celsius a Fahrenheit.dll.config
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\bin\Celsius a Fahrenheit.dll
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\bin\Celsius a Fahrenheit.pdb
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\bin\Celsius a Fahrenheit.xml
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\bin\roslyn\csc.exe
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\bin\roslyn\csc.exe.config
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\bin\roslyn\csc.rsp
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\bin\roslyn\csi.exe
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\bin\roslyn\csi.exe.config
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\bin\roslyn\csi.rsp
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\bin\roslyn\Microsoft.Managed.Core.targets
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\bin\roslyn\System.AppContext.dll
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\bin\roslyn\System.Collections.Immutable.dll
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\bin\roslyn\System.Console.dll
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\bin\roslyn\System.Globalization.Calendars.dll
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\bin\roslyn\System.IO.Compression.dll
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\bin\roslyn\System.IO.FileSystem.dll
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\bin\roslyn\System.Net.Http.dll
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\bin\roslyn\System.Net.Sockets.dll
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\bin\roslyn\System.Reflection.Metadata.dll
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\bin\roslyn\System.ValueTuple.dll
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\bin\roslyn\System.Xml.XmlDocument.dll
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\bin\roslyn\System.Xml.XPath.dll
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\bin\roslyn\vbc.exe
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\bin\roslyn\vbc.exe.config
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\bin\roslyn\vbc.rsp
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\bin\roslyn\VBCSCompiler.exe
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\bin\roslyn\VBCSCompiler.exe.config
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\obj\Debug\Celsius a Fahrenheit.vbproj.AssemblyReference.cache
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\obj\Debug\Celsius_a_Fahrenheit.Resources.resources
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\obj\Debug\Celsius a Fahrenheit.vbproj.GenerateResource.cache
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\obj\Debug\Celsius a Fahrenheit.vbproj.CoreCompileInputs.cache
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\obj\Debug\Celsius a Fahrenheit.vbproj.CopyComplete
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\obj\Debug\Celsius a Fahrenheit.dll
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\obj\Debug\Celsius a Fahrenheit.xml
+D:\ValeProgra\Cº-Fº\Celsius a Fahrenheit\Celsius a Fahrenheit\obj\Debug\Celsius a Fahrenheit.pdb
