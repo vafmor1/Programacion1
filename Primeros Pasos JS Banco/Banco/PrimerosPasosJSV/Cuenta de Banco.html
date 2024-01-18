@@ -10,17 +10,29 @@
             banco: "Banco de Bravos"
         }
 
-        function consultarCuenta() {
-            panelResultado.innerHTML =
-                miCuenta.propietario + ", " + "Tienes $" + miCuenta.saldo + "en el banco " + miCuenta.banco;
+        function retirarDinero() {
+            var monto = campoMonto.value;
+            if (monto > miCuenta.saldo) {
+                //el saldo es insuficiente
+                panelResultado.innerHTML = "No tienes saldo suficiente para retirar"
+            }
+            else {//el saldo es suficiente
+                miCuenta.saldo -= monto;
+                panelResultado.innerHTML = "Retiraste $" + monto + ". Te quedan $" + miCuenta.saldo;
+            }
+
+            function consultarCuenta() {
+                panelResultado.innerHTML =
+                    miCuenta.propietario + ", " + "Tienes $" + miCuenta.saldo + "en el banco " + miCuenta.banco;
+            }
         }
     </script> 
 </head>
 <body>
     <h1>Cuenta bancaria</h1>
-    Monto: <input type="number" id="monto"/><br />
+    Monto: <input type="number" id="campoMonto"/><br />
     <button>Depositar</button><br />
-    <button>Retirar</button><br />
+    <button onclick="retirarDinero()" >Retirar</button><br />
     <button onclick="ConsultarCuenta()" >Consultar</button><br />
     <div id="panelResultado"></div>
 </body>
