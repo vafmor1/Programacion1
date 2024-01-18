@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Cuenta Bancaria</title>
+    <script>
+        var miCuenta = {
+            propietario: "María Méndez",
+            saldo: 58790.10,
+            banco: "Banco de Bravos"
+        }
+
+        function consultarCuenta() {
+            panelResultado.innerHTML =
+                miCuenta.propietario + ", " + "Tienes $" + miCuenta.saldo + "en el banco " + miCuenta.banco;
+        }
+    </script> 
+</head>
+<body>
+    <h1>Cuenta bancaria</h1>
+    Monto: <input type="number" id="monto"/><br />
+    <button>Depositar</button><br />
+    <button>Retirar</button><br />
+    <button onclick="ConsultarCuenta()" >Consultar</button><br />
+    <div id="panelResultado"></div>
+</body>
+</html>

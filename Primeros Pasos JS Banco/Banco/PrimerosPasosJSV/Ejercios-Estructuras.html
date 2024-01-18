@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Ejercicio Estructuras</title>
+    <script>
+
+        //declaro una funcion
+        function describirPersona(persona) {
+            console.log(persona.nombre + " " + persona.apellido);
+            console.log("tiene " + persona.edad + " años y mide " + persona.altra);
+
+        }
+
+        //declaro una var con una estructura
+        var pepito = {
+            nombre: "José Juán",
+            apellido: "Pérez López",
+            edad: 54,
+            altra: 1.9
+        };
+
+        var claudia = {
+            nombre: "Claudia",
+            apellido: "Contreras",
+            edad: 31,
+            altra: 1.74
+        }
+
+        //invoco la funcion enviándole la estructura
+        describirPersona(pepito);
+        describirPersona(claudia);
+
+
+        function describirCelular(celular) {
+            console.log(celular.marca + " ");
+            console.log("modelo " + celular.modelo + "tiene" + celular.camaras);
+
+        }
+
+        //estructuras celular
+        var IphoneX = {
+            modelo: "Iphone X",
+
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>
