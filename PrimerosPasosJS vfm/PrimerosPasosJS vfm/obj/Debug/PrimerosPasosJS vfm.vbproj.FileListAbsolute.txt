@@ -1,0 +1,63 @@
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\bin\PrimerosPasosJS vfm.dll.config
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\bin\PrimerosPasosJS vfm.dll
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\bin\PrimerosPasosJS vfm.pdb
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\bin\PrimerosPasosJS vfm.xml
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\bin\roslyn\csc.exe
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\bin\roslyn\csc.exe.config
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\bin\roslyn\csc.rsp
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\bin\roslyn\csi.exe
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\bin\roslyn\csi.exe.config
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\bin\roslyn\csi.rsp
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\bin\roslyn\System.AppContext.dll
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\bin\roslyn\System.Console.dll
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\bin\roslyn\System.IO.Compression.dll
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\bin\roslyn\System.Net.Http.dll
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\bin\roslyn\System.Net.Sockets.dll
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\bin\roslyn\System.ValueTuple.dll
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\bin\roslyn\System.Xml.XPath.dll
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\bin\roslyn\vbc.exe
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\bin\roslyn\vbc.exe.config
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\bin\roslyn\vbc.rsp
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\bin\roslyn\VBCSCompiler.exe
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\obj\Debug\PrimerosPasosJS vfm.vbproj.AssemblyReference.cache
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\obj\Debug\PrimerosPasosJS_vfm.Resources.resources
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\obj\Debug\PrimerosPasosJS vfm.vbproj.GenerateResource.cache
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\obj\Debug\PrimerosPasosJS vfm.vbproj.CoreCompileInputs.cache
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\obj\Debug\PrimerosPasosJS vfm.vbproj.CopyComplete
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\obj\Debug\PrimerosPasosJS vfm.dll
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\obj\Debug\PrimerosPasosJS vfm.xml
+C:\Users\acer\Desktop\Programacion1\Programacion1\PrimerosPasosJS vfm\PrimerosPasosJS vfm\obj\Debug\PrimerosPasosJS vfm.pdb
