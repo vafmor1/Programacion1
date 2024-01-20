@@ -10,30 +10,40 @@
             banco: "Banco de Bravos"
         }
 
+        function consultarCuenta() {
+            panelResultado.innerHTML = miCuenta.propietario + ", " + "tienes $" + miCuenta.saldo + " en el banco " + miCuenta.banco;
+        }
+
         function retirarDinero() {
             var monto = campoMonto.value;
             if (monto > miCuenta.saldo) {
                 //el saldo es insuficiente
-                panelResultado.innerHTML = "No tienes saldo suficiente para retirar"
+                panelResultado.innerHTML = "No tienes saldo suficiente para retirar. ";
             }
             else {//el saldo es suficiente
                 miCuenta.saldo -= monto;
                 panelResultado.innerHTML = "Retiraste $" + monto + ". Te quedan $" + miCuenta.saldo;
             }
+        }
 
-            function consultarCuenta() {
-                panelResultado.innerHTML =
-                    miCuenta.propietario + ", " + "Tienes $" + miCuenta.saldo + "en el banco " + miCuenta.banco;
+        function depositarDinero() {
+            var monto = campoMonto.value;
+            if (monto > 0) {
+                miCuenta.saldo += monto;
+                panelResultado.innerHTML = "Depositaste $" + monto + ". Tu saldo es $" + miCuenta.saldo;
+            }
+            else {
+                panelResultado.innerHTML = "Ingresa un valor válido para depositar.";
             }
         }
     </script> 
 </head>
 <body>
     <h1>Cuenta bancaria</h1>
-    Monto: <input type="number" id="campoMonto"/><br />
-    <button>Depositar</button><br />
-    <button onclick="retirarDinero()" >Retirar</button><br />
-    <button onclick="ConsultarCuenta()" >Consultar</button><br />
+    Monto: <input type="number" id="campoMonto" /><br />
+    <button onclick="depositarDinero()">Depositar</button><br />
+    <button onclick="retirarDinero()">Retirar</button><br />
+    <button onclick="consultarCuenta()">Consultar</button><br />
     <div id="panelResultado"></div>
 </body>
 </html>

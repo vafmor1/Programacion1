@@ -34,15 +34,72 @@
 
         function describirCelular(celular) {
             console.log(celular.marca + " ");
-            console.log("modelo " + celular.modelo + "tiene" + celular.camaras);
+            console.log("Modelo " + celular.modelo + " tiene" + celular.camaras);
 
         }
 
         //estructuras celular
-        var IphoneX = {
-            modelo: "Iphone X",
+        var Iphone15ProMax = {
+            marca: "Apple",
+            modelo: "Iphone 15 Pro Max",
+            camaras: " tres cámaras"
+        };
 
+        var SamsungS23 = {
+            marca: "Samsung",
+            modelo: "Galaxy S23 Ultra",
+            camaras: " cuatro cámaras"
         }
+
+        //invoco la función enviandole la estructura
+        describirCelular(Iphone15ProMax);
+        describirCelular(SamsungS23);
+
+        function describirLibros(libro) {
+            console.log(libro.titulo + " ");
+            console.log("Autor " + libro.autor + " los géneros son " + libro.genero + " tiene " + libro.paginas + " páginas");
+        }
+
+        //estructura libro
+        var libro1 = {
+            titulo: "1984",
+            autor: "George Orwell,",
+            genero: "ciencia ficción y ficción distópica,",
+            paginas: 352
+        };
+
+        var libro2 = {
+            titulo: "Al final mueren los dos",
+            autor: "Adam silvera,",
+            genero: "novela y literatura juvenil,",
+            paginas: 416
+        }
+
+        describirLibros(libro1);
+        describirLibros(libro2);
+
+        function describirCancion(cancion) {
+            console.log(cancion.titulo + " ");
+            console.log("Cantante " + cancion.cantante + " el género es " + cancion.genero + " tiene una duración de " + cancion.duracion + " minutos");
+        }
+
+        //estructura lcancion
+        var PRIDE = {
+            titulo: "PRIDE",
+            cantante: "Kendrick Lamar,",
+            genero: "Hip-Hop,",
+            duracion: "4:35"
+        };
+
+        var Tyler = {
+            titulo: "See You Again",
+            cantante: "Tyler The Creator,",
+            genero: "Hip-Hop experimental,",
+            duracion: "3:00"
+        }
+
+        describirCancion(PRIDE);
+        describirCancion(Tyler);
     </script>
 </head>
 <body>
