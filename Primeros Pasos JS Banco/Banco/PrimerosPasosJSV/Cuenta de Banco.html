@@ -36,6 +36,12 @@
                 panelResultado.innerHTML = "Ingresa un valor válido para depositar.";
             }
         }
+
+        function nip() {
+            var nip = campoContraseña.value;
+
+        }
+
     </script> 
 </head>
 <body>
@@ -45,5 +51,8 @@
     <button onclick="retirarDinero()">Retirar</button><br />
     <button onclick="consultarCuenta()">Consultar</button><br />
     <div id="panelResultado"></div>
+    <h2>Ingresa tu contraseña</h2>
+    contraseña: <input type="password" id="campoContraseña" />
+    <input type="submit" value="Enviar" />
 </body>
 </html>
