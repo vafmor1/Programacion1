@@ -37,14 +37,14 @@
         }
 
         function depositarDinero() {
-            var monto = campoMonto.value;
+            var monto = +campoMonto.value;
             var nip = campoContraseña.value;
             if (verificarNIP(nip)) {
                 if (monto <= 0) {
                     // el monto a depositar debe ser mayor a cero
                     panelResultado.innerHTML = "Ingresa un monto válido para depositar.";
                 } else {
-                    miCuenta.saldo += parseFloat(monto);
+                    miCuenta.saldo += monto;
                     panelResultado.innerHTML = "Depositaste $" + monto + ". Tu nuevo saldo es $" + miCuenta.saldo;
                 }
             } else {
