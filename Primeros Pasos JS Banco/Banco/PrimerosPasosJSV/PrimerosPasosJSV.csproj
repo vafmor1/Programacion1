@@ -69,7 +69,17 @@
   <ItemGroup>
     <Content Include="Cuenta de Banco.html" />
     <Content Include="Ejercios-Estructuras.html" />
+    <Content Include="img\personajes\3DDKP17.png" />
+    <Content Include="img\personajes\4EzaTxj.png" />
+    <Content Include="img\personajes\8aGTvk9.png" />
+    <Content Include="img\personajes\A0VBHlW.png" />
+    <Content Include="img\personajes\CCu0M5w.png" />
+    <Content Include="img\personajes\FGRTHYD.png" />
+    <Content Include="img\personajes\fondo.jpg" />
+    <Content Include="img\personajes\GMGFDFS.png" />
+    <Content Include="img\personajes\HTRWW.png" />
     <Content Include="index.html" />
+    <Content Include="pelea-dnd.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

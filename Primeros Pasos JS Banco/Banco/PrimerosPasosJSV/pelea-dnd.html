@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Pelea DnD</title>
+    <script>
+
+        var dragon = {
+            nombre: "Dragón Gigante",
+            hp: 100,
+            atk: 40,
+            def: 30
+        }
+
+        var caballero = {
+            nombre: "Caballero Inmenso",
+            hp: 100,
+            atk: 15,
+            def: 15
+        }
+        //Aqui va Js
+        function caballeroAtaca() {
+            console.log("El caballero ataca");
+            dragon.hp = dragon.hp - 10;
+            console.log(dragon.nombre + " tiene " + dragon.hp + " de HP");
+            if (dragon.hp > 0) {
+            } else {
+                console.log("El Dragón Gigante murió. Ganaste");
+            }
+            console.log("Cuidado con tu defensa");
+            dragon.def -= caballero.atk;
+            console.log(caballero.nombre + " atacó,Dragón Gigante tiene " + dragon.def + " puntos de defensa.")
+            if(dragon.def > 0){
+            } else {
+                console.log("El Dragón Gigante se quedó sin defensa.");
+            }
+        }
+
+        function dragonAtaca() {
+            console.log("El dragón ataca");
+        }
+    </script>
+    <style>
+        /*Aquí va el código CSS*/
+        #calabozo {
+            position: relative;
+            width: 900px;
+            height: 600px;
+            background-image: url("img/personajes/fondo.jpg");
+            background-size: cover;
+        }
+
+        .personaje {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+        }
+
+        #caballero {
+            left: 300px;
+            top: 200px;
+        }
+
+        #guerrera {
+            left: 500px;
+            top: 200px;
+        }
+
+        #villano {
+            left: 400px;
+            top: 400px;
+            transform: rotate(180deg);
+        }
+    </style>
+</head>
+<body>
+    <div id="calabozo">
+        <img id="caballero" class="personaje" src="img/personajes/4EzaTxj.png"
+             onclick="caballeroAtaca()"/>
+        <img id="guerrera" class="personaje" src="img/personajes/A0VBHlW.png"
+             />
+        <img id="villano" class="personaje" src="img/personajes/GMGFDFS.png"
+             onclick="dragonAtaca()"/>
+    </div>
+</body>
+</html>
