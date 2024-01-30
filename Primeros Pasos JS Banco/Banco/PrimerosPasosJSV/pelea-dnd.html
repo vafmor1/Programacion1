@@ -8,36 +8,61 @@
         var dragon = {
             nombre: "Dragón Gigante",
             hp: 100,
-            atk: 40,
-            def: 30
+            atk: 20,
+            def: 10,
+            exp: 0
         }
 
         var caballero = {
             nombre: "Caballero Inmenso",
             hp: 100,
-            atk: 15,
+            atk: 20,
+            def: 10
+        }
+
+        var mila = {
+            nombre: "Mila",
+            hp: 100,
+            atk: 25,
             def: 15
         }
+
+        var expCaballero = 0;
+        var expMila = 0;
+
         //Aqui va Js
+
         function caballeroAtaca() {
-            console.log("El caballero ataca");
-            dragon.hp = dragon.hp - 10;
-            console.log(dragon.nombre + " tiene " + dragon.hp + " de HP");
-            if (dragon.hp > 0) {
-            } else {
-                console.log("El Dragón Gigante murió. Ganaste");
+            dragon.hp = dragon.hp - 20 + dragon.def;
+            dragon.exp = 20 + caballero.atk
+
+            if (dragon.hp <= 0) {
+                alert("El dragón murió. Ganaste " + dragon.exp + " puntos de experencia.");
+                console.log(caballero.nombre + " cuenta con " + dragon.exp + " puntos de experiencia.");
             }
-            console.log("Cuidado con tu defensa");
-            dragon.def -= caballero.atk;
-            console.log(caballero.nombre + " atacó,Dragón Gigante tiene " + dragon.def + " puntos de defensa.")
-            if(dragon.def > 0){
-            } else {
-                console.log("El Dragón Gigante se quedó sin defensa.");
+            else {
+                console.log("El caballero ataca");
+                console.log(dragon.nombre + " tiene " + dragon.hp + " de HP.");
+            }
+        }
+
+        function milaAtaca() {
+            dragon.hp = dragon.hp - 25 + dragon.def;
+            dragon.exp = 25 + mila.atk
+
+            if (dragon.hp <= 0) {
+                alert("El dragón murió. Ganaste " + dragon.exp + " puntos de experiencia.");
+                console.log(mila.nombre + " cuenta con " + dragon.exp + " puntos de experiencia.");
+            }
+            else {
+                console.log("Mila ataca");
+                console.log(dragon.nombre + " tiene " + dragon.hp + " de HP.");
             }
         }
 
         function dragonAtaca() {
             console.log("El dragón ataca");
+
         }
     </script>
     <style>
@@ -61,12 +86,12 @@
             top: 200px;
         }
 
-        #guerrera {
+        #mila {
             left: 500px;
             top: 200px;
         }
 
-        #villano {
+        #dragon {
             left: 400px;
             top: 400px;
             transform: rotate(180deg);
@@ -77,9 +102,9 @@
     <div id="calabozo">
         <img id="caballero" class="personaje" src="img/personajes/4EzaTxj.png"
              onclick="caballeroAtaca()"/>
-        <img id="guerrera" class="personaje" src="img/personajes/A0VBHlW.png"
-             />
-        <img id="villano" class="personaje" src="img/personajes/GMGFDFS.png"
+        <img id="mila" class="personaje" src="img/personajes/A0VBHlW.png"
+            onclick="milaAtaca()" />
+        <img id="dragon" class="personaje" src="img/personajes/GMGFDFS.png"
              onclick="dragonAtaca()"/>
     </div>
 </body>
