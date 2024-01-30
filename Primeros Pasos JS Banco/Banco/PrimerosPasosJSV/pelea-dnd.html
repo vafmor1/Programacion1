@@ -10,35 +10,37 @@
             hp: 100,
             atk: 20,
             def: 10,
-            exp: 0
+            exp: 80
         }
 
         var caballero = {
             nombre: "Caballero Inmenso",
             hp: 100,
             atk: 20,
-            def: 10
+            def: 10,
+            exp: 0
         }
 
         var mila = {
             nombre: "Mila",
             hp: 100,
-            atk: 25,
-            def: 15
+            atk: 30,
+            def: 15,
+            exp: 0
         }
 
-        var expCaballero = 0;
-        var expMila = 0;
+        var ultimoAtacante = "";
 
         //Aqui va Js
 
         function caballeroAtaca() {
             dragon.hp = dragon.hp - 20 + dragon.def;
-            dragon.exp = 20 + caballero.atk
+            caballero.exp = dragon.exp + caballero.atk
+            ultimoAtacante = caballero;
 
             if (dragon.hp <= 0) {
-                alert("El dragón murió. Ganaste " + dragon.exp + " puntos de experencia.");
-                console.log(caballero.nombre + " cuenta con " + dragon.exp + " puntos de experiencia.");
+                alert("El dragón murió.");
+                console.log(caballero.nombre + " cuenta con " + caballero.exp + " puntos de experiencia.");
             }
             else {
                 console.log("El caballero ataca");
@@ -48,11 +50,12 @@
 
         function milaAtaca() {
             dragon.hp = dragon.hp - 25 + dragon.def;
-            dragon.exp = 25 + mila.atk
+            mila.exp = dragon.exp + mila.atk
+            ultimoAtacante = mila;
 
             if (dragon.hp <= 0) {
-                alert("El dragón murió. Ganaste " + dragon.exp + " puntos de experiencia.");
-                console.log(mila.nombre + " cuenta con " + dragon.exp + " puntos de experiencia.");
+                alert("El dragón murió.");
+                console.log(mila.nombre + " cuenta con " + mila.exp + " puntos de experiencia.");
             }
             else {
                 console.log("Mila ataca");
@@ -61,7 +64,11 @@
         }
 
         function dragonAtaca() {
-            console.log("El dragón ataca");
+            if (ultimoAtacante) {
+                ultimoAtacante.hp = ultimoAtacante.hp - (dragon.atk - ultimoAtacante.def);
+                console.log("El dragón contraataca");
+                console.log(ultimoAtacante.nombre + " tiene " + ultimoAtacante.hp + " de HP.");
+            }
 
         }
     </script>
