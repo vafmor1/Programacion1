@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Relaciones etre Estructuras</title>
+    <script>
+
+        var cruxio = {
+            conjuro: "Cruxiooo",
+            efecto: "tortura"
+        }
+
+        var ak = {
+            conjuro: "Avada Kadabra",
+            efecto: "matar"
+        }
+
+        var confundus = {
+            conjuro: "Confundus",
+            efecto: "confundir"
+        }
+
+        var slytherin = {
+            nombre: "Slytherin",
+            emblema: "Serpiente"
+        }
+
+        var gryffindor = {
+            nombre: "Gryffindor",
+            emblema: "León"
+        }
+
+        var bellatrix = {
+            nombre: "Bellatrix",
+            apellido: "Lestrange",
+            casa: slytherin,
+            hechizoPreferido: ak
+        }
+
+        var draco = {
+            nombre: "Draco",
+            apellido: "Malfoy",
+            casa: slytherin,
+            hechizoPreferido: cruxio
+        }
+
+        var ron = {
+            nombre: "Ron",
+            apellido: "Weasley",
+            casa: gryffindor,
+            hechizoPreferido: confundus
+        }
+
+        var hermione = {
+            nombre: "Hermione",
+            apellido: "Granger",
+            casa: gryffindor,
+            hechizoPreferido: ak
+        }
+
+        console.log(draco.nombre + " " + draco.apellido + " pertenece a la casa " + draco.casa.nombre +
+            " cuyo emblema es " + draco.casa.emblema + " y su hechizo preferido es " + draco.hechizoPreferido.conjuro);
+        console.log(bellatrix.nombre + " " + bellatrix.apellido + " pertenece a la casa " + bellatrix.casa.nombre +
+            " cuyo emblema es " + bellatrix.casa.emblema + " y su hechizo preferido es " + bellatrix.hechizoPreferido.conjuro);
+        console.log(ron.nombre + " " + ron.apellido + " pertenece a la casa " + ron.casa.nombre +
+            " cuyo emblema es " + ron.casa.emblema + " y su hechizo preferido es " + ron.hechizoPreferido.conjuro);
+        console.log(hermione.nombre + " " + hermione.apellido + " pertenece a la casa " + hermione.casa.nombre +
+            " cuyo emblema es " + hermione.casa.emblema + " y su hechizo preferido es " + hermione.hechizoPreferido.conjuro);
+
+        //declaro una función que recibe un mago y lo presenta en la consola
+
+        function presentarMago(mago) {
+            console.log(mago.nombre + " " + mago.apellido);
+        }
+
+        function presentarHechizo(hechizo) {
+            console.log(mago.nombre + " " + mago.apellido + " pertenece a la casa " + mago.casa.nombre +
+                " cuyo emblema es " + mago.casa.emblema + " y su hechizo preferido es " + mago.hechizoPreferido.conjuro);
+        }
+
+        function presentarCasaEmblema(casa, emblema) {
+            console.log("Pertenece a la casa " + mago.casa.nombre + " y su emblema es " + mago.casa.emblema + + draco.casa.emblema +  " " + draco.hechizoPreferido.conjuro);
+        }
+
+        //invoco la función para presentar a los personajes
+        presentarMago(draco);
+        presentarMago(bellatrix);
+        presentarMago(ron);
+        presentarMago(hermione);
+
+        //invoco la función para presentar hechizo
+        presentarHechizo(cruxio);
+        presentarHechizo(ak);
+        presentarHechizo(confundus);
+
+        //invoco la función para presentar casa
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
