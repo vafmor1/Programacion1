@@ -74,13 +74,13 @@
         }
 
         function presentarHechizo(hechizo) {
-            console.log(mago.nombre + " " + mago.apellido + " pertenece a la casa " + mago.casa.nombre +
-                " cuyo emblema es " + mago.casa.emblema + " y su hechizo preferido es " + mago.hechizoPreferido.conjuro);
+            console.log(hechizo.conjuro + " es un hechizo que tiene el efecto: " + hechizo.efecto);
         }
 
-        function presentarCasaEmblema(casa, emblema) {
-            console.log("Pertenece a la casa " + mago.casa.nombre + " y su emblema es " + mago.casa.emblema + + draco.casa.emblema +  " " + draco.hechizoPreferido.conjuro);
+        function presentarCasa(casa) {
+            console.log(casa.nombre + " es la casa respresentada por el animal: " + casa.emblema);
         }
+
 
         //invoco la función para presentar a los personajes
         presentarMago(draco);
@@ -94,7 +94,8 @@
         presentarHechizo(confundus);
 
         //invoco la función para presentar casa
-
+        presentarCasa(gryffindor);
+        presentarCasa(slytherin);
     </script>
 </head>
 <body>
