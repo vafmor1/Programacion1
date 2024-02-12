@@ -32,15 +32,30 @@
         var ultimoAtacante = "";
 
         //Aqui va Js
+
+        var contadorCaballero = 0;
+        var contadorMila = 0;
+        var totalAtk = 0;
+        var proporcionCaballero = 0;
+        var proporcionMila = 0;
+
+
         function calcularExp() {
+            // Calcular el daño total infligido al dragón
             var totalAtk = caballero.atk + mila.atk;
-            var proporciónCaballero = caballero.atk / totalAtk;
-            var proporciónMila = mila.atk / totalAtk;
+            var dañoTotalCaballero = caballero.atk - dragon.def;
+            var dañoTotalMila = mila.atk - dragon.def;
+
+            // Determinar la proporción de daño realizado por cada uno
+            var proporcionCaballero = dañoTotalCaballero / totalAtk;
+            var proporcionMila = dañoTotalMila / totalAtk;
+
+            // Asignar la experiencia proporcionalmente
             var expTotal = dragon.exp;
+            caballero.exp = caballero.exp + proporcionCaballero * expTotal;
+            mila.exp = mila.exp + proporcionMila * expTotal;
 
-            caballero.exp += proporciónCaballero * expTotal;
-            mila.exp += proporciónMila * expTotal;
-
+            // Mostrar mensaje y experiencia obtenida
             alert("El dragón murió.");
             console.log(caballero.nombre + " cuenta con " + caballero.exp + " puntos de experiencia.");
             console.log(mila.nombre + " cuenta con " + mila.exp + " puntos de experiencia.");
