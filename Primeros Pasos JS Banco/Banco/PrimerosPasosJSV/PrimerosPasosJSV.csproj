@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Cuenta de Banco.html" />
+    <Content Include="ejerciciocondiciones.html" />
     <Content Include="Ejercios-Estructuras.html" />
     <Content Include="img\personajes\3DDKP17.png" />
     <Content Include="img\personajes\4EzaTxj.png" />
