@@ -68,7 +68,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Cuenta de Banco.html" />
-    <Content Include="ejerciciocondiciones.html" />
+    <Content Include="ejercicio-zodiaco.html" />
+    <Content Include="ejercicio-condiciones.html" />
     <Content Include="Ejercios-Estructuras.html" />
     <Content Include="img\personajes\3DDKP17.png" />
     <Content Include="img\personajes\4EzaTxj.png" />
@@ -79,6 +80,13 @@
     <Content Include="img\personajes\fondo.jpg" />
     <Content Include="img\personajes\GMGFDFS.png" />
     <Content Include="img\personajes\HTRWW.png" />
+    <Content Include="img\zodiaco\acuario.jfif" />
+    <Content Include="img\zodiaco\aries.jfif" />
+    <Content Include="img\zodiaco\indefinido.jpg" />
+    <Content Include="img\zodiaco\leo.jpg" />
+    <Content Include="img\zodiaco\libra.jpg" />
+    <Content Include="img\zodiaco\Piscis.jpg" />
+    <Content Include="img\zodiaco\tauro.jpg" />
     <Content Include="index.html" />
     <Content Include="pelea-dnd.html" />
     <Content Include="relaciones-estructuras.html" />
@@ -96,6 +104,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
