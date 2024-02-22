@@ -13,36 +13,114 @@
 
             console.log("Consultando fecha " + dia + "/" + mes + " = " + valor);
 
-            icono.src = "img/zodiaco/libra.jpg";
-            nombreSigno.innerHTML = "Libra";
-            descripSigno.innerHTML = "Los libras son personas muy balanceadas que entrenan a Shiru en las cascadas";
 
             if (120 <= valor && valor < 218) {
 
                 icono.src = "img/zodiaco/acuario.jfif";
                 nombreSigno.innerHTML = "Acuario";
-                descripSigno.innerHTML = "Los Acuario tienen una personalidad fuerte y atractiva.";
+                descripSigno.innerHTML = "Acuario tienen una personalidad fuerte y atractiva. Hay dos tipos de Acuario: uno es tímido, sensible, y paciente.";
             }
             else if (219 <= valor && valor < 320) {
 
                 icono.src = "img/zodiaco/Piscis.jpg";
                 nombreSigno.innerHTML = "Piscis";
-                descripSigno.innerHTML = "Un Piscis tiene una personalidad tranquila, paciente y amable.";
+                descripSigno.innerHTML = "Piscis tiene una personalidad tranquila, paciente y amable. Son sensibles a los sentimientos de los demás y responden con simpatía y tacto al sufrimiento de los demás.";
             }
             else if (321 <= valor && valor < 419) {
 
                 icono.src = "img/zodiaco/aries.jfif";
                 nombreSigno.innerHTML = "Aries";
-                descripSigno.innerHTML = "Un Aries es una persona llena de energía y entusiasmo.";
+                descripSigno.innerHTML = "Aries es una persona llena de energía y entusiasmo. Pionero y aventurero, le encantan los retos, la libertad y las nuevas ideas. A los Aries les gusta liderar y prefieren dar instrucciones a recibirlas.";
             }
             else if (420 <= valor && valor < 520) {
 
                 icono.src = "img/zodiaco/tauro.jpg";
                 nombreSigno.innerHTML = "Tauro";
-                descripSigno.innerHTML = "Los tauro son personas muy determinadas.";
+                descripSigno.innerHTML = "Tauro suele ser práctico, decidido y tener una gran fuerza de voluntad. Los Tauro son personas estables y conservadores, seguirán de forma leal un líder en el que tienen confianza. Les encanta la paz y tranquilidad y son muy respetuosos con las leyes y las reglas.";
+            }
+            else if (521 <= valor && valor < 620) {
+
+                icono.src = "img/zodiaco/geminis.jpg";
+                nombreSigno.innerHTML = "Géminis";
+                descripSigno.innerHTML = "Muy sociables y demasiado curiosos, aspecto negativo cuando se trata de establecer una relación ya que les cuesta mucho comprometerse.";
+            }
+            else if (621 <= valor && valor < 722) {
+
+                icono.src = "img/zodiaco/cancer.jpg";
+                nombreSigno.innerHTML = "Cáncer";
+                descripSigno.innerHTML = "Son muy sensibles y tienden a ser inseguros con ellos mismos. Confían demasiado en los demás, eso sí.";
+            }
+            else if (723 <= valor && valor < 822) {
+
+                icono.src = "img/zodiaco/leo.jpg";
+                nombreSigno.innerHTML = "Leo";
+                descripSigno.innerHTML = "Tienen luz propia, una extrema lealtad hacia los demás y una maravillosa facilidad para hacer sentir bien a las personas de su alrededor.";
+            }
+            else if (823 <= valor && valor < 922) {
+
+                icono.src = "img/zodiaco/virgo.jpg";
+                nombreSigno.innerHTML = "Virgo";
+                descripSigno.innerHTML = "Son muy ordenados, rozando incluso el convertirse en maniáticos. Su parte positiva reside en la servicialidad y generosidad que siempre demuestran a los demás. ";
+            }
+            else if (923 <= valor && valor < 1022) {
+
+                icono.src = "img/zodiaco/libra.jpg";
+                nombreSigno.innerHTML = "Libra";
+                descripSigno.innerHTML = "Tienen encanto, elegancia y buen gusto, son amables y pacíficos. Les gusta la belleza y la armonía y son capaces de ser imparciales ante conflictos.";
+            }
+            else if (1023 <= valor && valor < 1121) {
+
+                icono.src = "img/zodiaco/escorpio.jpg";
+                nombreSigno.innerHTML = "Escorpio";
+                descripSigno.innerHTML = "Escorpio es un signo intenso con una energía emocional única en todo el zodiaco. Aunque puedan aparecer tranquilos, los Escorpio tienen una agresión y magnetismo interno escondidos dentro.";
+            }
+            else if (1122 <= valor && valor < 1221) {
+
+                icono.src = "img/zodiaco/sagitario.jpg";
+                nombreSigno.innerHTML = "Sagitario";
+                descripSigno.innerHTML = "Sagitario es uno de los signos más positivos del zodiaco. Son versátiles y les encanta la aventura y lo desconocido. Tienen la mente abierta a nuevas ideas y experiencias y mantienen una actitud optimista incluso cuando las cosas se les ponen difíciles.";
+            }
+            else if (1222 <= valor && valor < 119) {
+
+                icono.src = "img/zodiaco/capricornio.jpg";
+                nombreSigno.innerHTML = "Capricornio";
+                descripSigno.innerHTML = "Capricornio es un de los signos del zodiaco más estables, seguros y tranquilos. Son trabajadores, responsables, prácticos y dispuestos a persistir hasta sea necesario para conseguir su objetivo.";
             }
         }
+
     </script>
+
+    <style>
+
+        body {
+            background-color: #EEEEEE;
+        }
+
+        #icono {
+            position: relative;
+            width: 500px;
+            height: 350px;
+        }
+        h1 {
+            color: #1C658C;
+            background-color: white;
+            font-family: Verdana;
+        }
+        label {
+            color: #1C658C;
+            font-family: Verdana;
+        }
+        button {
+            color: #12372A;
+            font-family: Verdana;
+        }
+        select{
+            width: 80px;
+            height: 30px;
+        }
+
+    </style>
+
 </head>
 <body>
     <h1>El Horóscopo</h1>
@@ -96,7 +174,7 @@
         <option value="12">Diciembre</option>
     </select>
     <button onclick="consultarHor()">
-    Consultar horóscopo
+        Consultar horóscopo
     </button>
     <img id="icono" src="img/zodiaco/indefinido.jpg"/>
     <h2 id="nombreSigno"></h2>

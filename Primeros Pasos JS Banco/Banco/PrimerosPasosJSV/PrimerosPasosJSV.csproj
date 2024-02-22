@@ -82,11 +82,17 @@
     <Content Include="img\personajes\HTRWW.png" />
     <Content Include="img\zodiaco\acuario.jfif" />
     <Content Include="img\zodiaco\aries.jfif" />
+    <Content Include="img\zodiaco\cancer.jpg" />
+    <Content Include="img\zodiaco\capricornio.jpg" />
+    <Content Include="img\zodiaco\escorpio.jpg" />
+    <Content Include="img\zodiaco\geminis.jpg" />
     <Content Include="img\zodiaco\indefinido.jpg" />
     <Content Include="img\zodiaco\leo.jpg" />
     <Content Include="img\zodiaco\libra.jpg" />
     <Content Include="img\zodiaco\Piscis.jpg" />
+    <Content Include="img\zodiaco\sagitario.jpg" />
     <Content Include="img\zodiaco\tauro.jpg" />
+    <Content Include="img\zodiaco\virgo.jpg" />
     <Content Include="index.html" />
     <Content Include="pelea-dnd.html" />
     <Content Include="relaciones-estructuras.html" />
