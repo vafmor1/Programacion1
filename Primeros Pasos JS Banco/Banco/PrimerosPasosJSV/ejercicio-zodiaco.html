@@ -80,7 +80,7 @@
                 nombreSigno.innerHTML = "Sagitario";
                 descripSigno.innerHTML = "Sagitario es uno de los signos más positivos del zodiaco. Son versátiles y les encanta la aventura y lo desconocido. Tienen la mente abierta a nuevas ideas y experiencias y mantienen una actitud optimista incluso cuando las cosas se les ponen difíciles.";
             }
-            else if (1222 <= valor && valor < 119) {
+            else if (1222 >= valor && valor < 119) {
 
                 icono.src = "img/zodiaco/capricornio.jpg";
                 nombreSigno.innerHTML = "Capricornio";
@@ -95,17 +95,487 @@
 
             console.log("Consultadno compatibilidad entre: " + signo1 + " y " + signo2);
 
-            if ("acuario" && "acuario2") {
-                compa.innerHTML = "Compatibilidad media";
-                descripCompa.innerHTML = "Es posible que dos Acuario trabajando conjuntamente no consigan una fortuna, pero tampoco perderán el sueño por ello. Si hay algo que caracteriza a este signo es la falta de interés en los asuntos materiales y la necesidad de estar innovando continuamente, sobre todo, en todas aquellas actividades que estén relacionadas con el mundo de la investigación en cualquiera de sus posibles campos.";
-            }
-            else if ("acuario" && "piscis2") {
-                compa.innerHTML = "Compatibilidad media";
-                descripCompa.innerHTML = "Acuario es uno de los signos fijos dentro del zodiaco y Piscis es uno de los mutables dentro del mismo. De esta suerte, sus relaciones suelen ser o pueden ser bastante positivas, aunque tendrán que hacer algunos esfuerzos en ese sentido.";
+            if (signo1 === "acuario") {
+                if (signo2 === "acuario2") {
+                    compa.innerHTML = "Compatibilidad media";
+                    descripCompa.innerHTML = "Es posible que dos Acuario trabajando conjuntamente no consigan una fortuna, pero tampoco perderán el sueño por ello. Si hay algo que caracteriza a este signo es la falta de interés en los asuntos materiales y la necesidad de estar innovando continuamente.";
+                } else if (signo2 === "piscis2") {
+                    compa.innerHTML = "Compatibilidad media";
+                    descripCompa.innerHTML = "Acuario es uno de los signos fijos dentro del zodiaco y Piscis es uno de los mutables dentro del mismo. De esta suerte, sus relaciones suelen ser o pueden ser bastante positivas, aunque tendrán que hacer algunos esfuerzos en ese sentido.";
+                } else if (signo2 === "aries2") {
+                    compa.innerHTML = "Compatibilidad alta";
+                    descripCompa.innerHTML = "Aries y Acuario forman una unión en la que se unen un signo cardinal, Aries, con un signo fijo, Acuario. Generalmente sus relaciones están repletas de mucho magnetismo y magia, y encima, si por separado son personas con una imaginación muy activa, juntas ya son prodigiosas.";
+                } else if (signo2 === "tauro2") {
+                    compa.innerHTML = "Compatibilidad baja";
+                    descripCompa.innerHTML = "Tauro y Acuario son signos que se encuadran dentro de los llamados fijos en la rueda zodiacal. Sus relaciones en esta combinación suelen ser complejas, sobre todo debido a que tienen personalidades muy distintas, aunque sus propios ascendentes y voluntad representan un rol determinante.";
+                } else if (signo2 === "geminis2") {
+                    compa.innerHTML = "Compatibilidad media";
+                    descripCompa.innerHTML = "Géminis con Acuario forma una relación en que se combina un signo mutable, en el caso de Géminis, con un signo fijo, como es Acuario. Aunque aparentemente exista oposición entre esa mutabilidad y esa fijeza, en realidad no es para tanto y suelen equilibrarse con sus diferencias.";
+                } else if (signo2 === "cancer2") {
+                    compa.innerHTML = "Compatibilidad alta";
+                    descripCompa.innerHTML = "Cáncer y Acuario forman una unión en la que coinciden dos signos con particulares bien distintas: Cáncer es cardinal y Acuario es un signo que pertenece a los llamados fijos del zodíaco; precisamente por eso, su compatibilidad resulta en general una rareza extraordinaria y maravillosa.";
+                } else if (signo2 === "leo2") {
+                    compa.innerHTML = "Compatibilidad baja";
+                    descripCompa.innerHTML = "Leo y Acuario están contenidos dentro de los signos fijos en la rueda zodiacal; generalmente, sus relaciones serán algo turbulentas en la mayoría de los casos. De todas maneras, es necesario aclarar que dependerán en buena medida del ámbito en el que se desarrollen y de la voluntad que pongan.";
+                } else if (signo2 === "virgo2") {
+                    compa.innerHTML = "Compatibilidad media";
+                    descripCompa.innerHTML = "Virgo forma parte de los signos mutables en la rueda del zodíaco y el signo de Acuario es uno de los pertenecientes a los signos fijos. Sus relaciones, en la mayoría de los casos, no son malas, ya que comparten una buena comunicación pese a los contrastes que les caracterizan.";
+                } else if (signo2 === "libra2") {
+                    compa.innerHTML = "Compatibilidad media";
+                    descripCompa.innerHTML = "Libra es un signo que se encuadra dentro de los signos cardinales y Acuario forma parte de los signos fijos del zodiaco. Generalmente presentan algunas diferencias que pueden resultar complementarias, si se deciden a suavizar sus diferencias en las relaciones que puedan desarrollar.";
+                } else if (signo2 === "escorpio2") {
+                    compa.innerHTML = "Compatibilidad baja";
+                    descripCompa.innerHTML = "El signo de Escorpio y el de Acuario comparten su carácter fijo dentro de la rueda del zodiaco; y en este caso en particular, lo anterior se traduce en unas relaciones complejas que, en principio, suelen conllevar muchos riesgos, puesto que a priori no resultan demasiado compatibles.";
+                } else if (signo2 === "sagitario2") {
+                    compa.innerHTML = "Compatibilidad alta";
+                    descripCompa.innerHTML = "Sagitario se encuadra dentro de los llamados signos mutables y Acuario forma parte de los signos fijos del zodíaco. Generalmente sus relaciones suelen ser muy positivas la mayor parte de las veces, aunque las discusiones, cuando se dan, pueden escucharse a kilómetros a la redonda.";
+                } else if (signo2 === "capricornio2") {
+                    compa.innerHTML = "Compatibilidad baja";
+                    descripCompa.innerHTML = "Capricornio es un signo de carácter cardinal y Acuario es un signo de carácter fijo, así que, en general y en este caso en concreto, tendrán algunas dificultades, dependiendo en buena medida de la voluntad que pongan para llevarse bien y de los ámbitos en que se relacionen.";
+                }
             }
 
-       
+            if (signo1 === "piscis") {
+                if (signo2 === "acuario2") {
+                    compa.innerHTML = "Compatibilidad media";
+                    descripCompa.innerHTML = "Acuario es uno de los signos fijos dentro del zodiaco y Piscis es uno de los mutables dentro del mismo. De esta suerte, sus relaciones suelen ser o pueden ser bastante positivas, aunque tendrán que hacer algunos esfuerzos en ese sentido.";
+                } else if (signo2 === "piscis2"){
+                    compa.innerHTML = "Compatibilidad alta";
+                    descripCompa.innerHTML = "El signo de Piscis se encuentra incluido dentro de los signos mutables del zodíaco, y en general, una relación formada por dos personas pertenecientes a este signo se desarrollará entre las bases de la comprensión y la tolerancia más beneficiosas para ambas.";
+                } else if (signo2 === "aries2") {
+                    compa.innerHTML = "Compatibilidad alta";
+                    descripCompa.innerHTML = "Aries es un signo comprendido dentro de los signos cardinales y Piscis es un signo incluido en los mutables; en esta relación en concreto, aunque son personas bastante opuestas en sus respectivas personalidades y gustos, comparten un respeto mutuo digno de alabanzas.";
+                } else if (signo2 === "tauro2") {
+                    compa.innerHTML = "Compatibilidad alta";
+                    descripCompa.innerHTML = "Su relación como pareja suele ser dichosa, Tauro y Piscis saben que tienen mucho que enseñar y aprender de su media naranja; además, las sonrisas es un ingrediente que no falta en su relación. Para terminar, comparten una comunicación extraordinaria.En fin, Tauro y Piscis seguramente llegarán a comprender como nadie lo mucho que se quieren. ¡Felicidades!";
+                } else if (signo2 === "geminis2") {
+                    compa.innerHTML = "Compatibilidad media";
+                    descripCompa.innerHTML = "Géminis y Piscis conforman una relación en que se mezclan dos signos mutables, por eso comparten algunas virtudes y bastantes defectos; su compatibilidad depende en buena medida del terreno en que se relacionen, y en cualquier caso, necesitan prestarse mutuamente mucha comprensión, tiempo y esfuerzo para llegar a cierto equilibrio";
+                } else if (signo2 === "cancer2") {
+                    compa.innerHTML = "Compatibilidad media";
+                    descripCompa.innerHTML = "En el plano sentimental su unión suele resultar equilibrada, puesto que ni una parte ni la otra se altera con facilidad, y menos todavía cuando se unen. Además, a Piscis le viene de perlas tener a alguien a su lado tan firme como Cáncer. Sin embargo, a veces, la inquietud de Piscis puede llevarle a explorar territorios que no son compartidos para nada por el posesivo signo de Cáncer.";
+                } else if (signo2 === "leo2") {
+                    compa.innerHTML = "Compatibilidad baja";
+                    descripCompa.innerHTML = "Cuando forman una pareja, la inestabilidad propia del Pez, mezclada con la tendencia a la rutina del signo de Leo dan como resultado un desequilibrio chocante, o también puede ser todo lo contrario, depende. Piscis se mueve según sus sentimientos, pero Leo, a veces, no es capaz de entenderlo, su razón se lo impide.";
+                } else if (signo2 === "virgo2") {
+                    compa.innerHTML = "Compatibilidad media";
+                    descripCompa.innerHTML = "Sus relaciones en el plano sentimental tampoco resultan demasiado dichosas, puesto que la estabilidad propia del signo de Virgo se esfuma con alguien tan inestable como Piscis cerca, algo que para Virgo resulta insoportable, quizás demasiado. Sin embargo y con frecuencia, sienten una atracción sexual intensa que podrá unir sus vidas íntimamente por momentos, aunque luego, cada cual vaya discurriendo tranquilamente por otros derroteros.";
+                } else if (signo2 === "libra2") {
+                    compa.innerHTML = "Compatibilidad alta";
+                    descripCompa.innerHTML = "Cuando forman una pareja la atracción que sienten es muy fuerte; Libra y Piscis suelen mantener unas relaciones sexuales que van mucho más allá del puro placer físico, hasta llegar al espiritual. Asimismo, también comparten una infinidad de ideas y de aficiones que, si cabe, les hace sentirse aún mejor y madurar a la par.";
+                } else if (signo2 === "escorpio2") {
+                    compa.innerHTML = "Compatibilidad alta";
+                    descripCompa.innerHTML = "Escorpio y Piscis comparten una comunicación extraordinaria, incluso cualquiera diría que tienen algo así como telepatía. Como se conocen tan bien, saben cuáles son sus puntos débiles y los fuertes, pero evitan tocar los débiles y robustecer los fuertes; no soportan la idea de hacerse daño, su amor está por encima de todas las cosas. ¡Felicidades!";
+                } else if (signo2 === "sagitario2") {
+                    compa.innerHTML = "Compatibilidad baja";
+                    descripCompa.innerHTML = "Cuando forman una pareja es posible que mantengan bastantes diferencias; empezando por la excesiva sensibilidad del signo de Piscis, algo que unido a la verborrea propia de Sagitario, puede dar lugar a muchos malentendidos y conflictos. Tampoco son hábiles manejando el dinero, por eso suelen tener problemas económicos cada dos por tres. Sin embargo, comparten el mismo espíritu tierno, cándido y espontáneo; ¡ánimo!";
+                } else if (signo2 === "capricornio2") {
+                    compa.innerHTML = "Compatibilidad alta";
+                    descripCompa.innerHTML = "Cuando forman una pareja les pasa más o menos lo mismo; saben que son diferentes, pero conscientes de ello, intentan mejorarse, y simplemente, lo que le falta a Capricornio, a Piscis le sobra, y viceversa. Piscis con Capricornio al lado deja a un lado sus dudas, y a la vez, este último signo sale de la inflexibilidad y rigidez tan propia de él. En fin, un Carnero y un Pez juntos saben vivir bien y desarrollarse. ¡Felicidades!";
+                }
+            }
+
+            if (signo1 === "aries") {
+                if (signo2 === "acuario2") {
+                    compa.innerHTML = "Compatibilidad alta";
+                    descripCompa.innerHTML = "Aries y Acuario forman una unión en la que se unen un signo cardinal, Aries, con un signo fijo, Acuario. Generalmente sus relaciones están repletas de mucho magnetismo y magia, y encima, si por separado son personas con una imaginación muy activa, juntas ya son prodigiosas.";
+                } else if (signo2 === "piscis2") {
+                    compa.innerHTML = "Compatibilidad alta";
+                    descripCompa.innerHTML = "Aries es un signo comprendido dentro de los signos cardinales y Piscis es un signo incluido en los mutables; en esta relación en concreto, aunque son personas bastante opuestas en sus respectivas personalidades y gustos, comparten un respeto mutuo digno de alabanzas.";
+                } else if (signo2 === "aries2") {
+                    compa.innerHTML = "Compatibilidad media";
+                    descripCompa.innerHTML = "Una pareja formada por dos personas pertenecientes a este signo puede resultar una bendición o un castigo insufrible, depende. Suelen ser personas que odian la falsedad y cualquier otra clase de artimañas: juntas pueden conseguir ser muy felices, siempre y cuando, no intenten someterse mutuamente. Aries tiene como virtud la pureza, así que cada vez que se demuestran amor, saben que, sin duda, es sincero.";
+                } else if (signo2 === "tauro2") {
+                    compa.innerHTML = "Compatibilidad media";
+                    descripCompa.innerHTML = "Cuando se trata de amor, Aries y Tauro también son distintos; si estas dos personas se encuentran, es difícil que Tauro dé el primer paso, casi seguro que será el signo de Aries quien lo haga. Sin embargo, una vez que su relación se asiente, será Tauro quien propicie el desarrollo de la misma. En cualquier caso, su historia puede ser muy bonita y enriquecedora, Aries será la parte más activa de la unión y Tauro la más reflexiva.";
+                } else if (signo2 === "geminis2") {
+                    compa.innerHTML = "Compatibilidad alta";
+                    descripCompa.innerHTML = "Cuando hablamos de amor, estos dos signos conocen como nadie el significado de esa palabra, pero quizá de una manera extraña para el resto de la gente. Si Aries quiere mandar, por Géminis perfecto, así no tiene que llevar sobre sus espaldas el peso de la responsabilidad que tanto molesta a este signo. Además, a Aries no le molesta el carácter voluble de Géminis, simplemente deja que vaya a su ritmo.";
+                } else if (signo2 === "cancer2") {
+                    compa.innerHTML = "Compatibilidad baja";
+                    descripCompa.innerHTML = "En el plano sentimental se suelen comportar de la misma forma: siempre quieren que se haga lo que quieren, precisamente por eso, las disputas se sucederán. Además, son personas que tienen una facilidad pasmosa para herirse, y cuando Aries o Cáncer sienten daño, no olvidan, nunca.";
+                } else if (signo2 === "leo2") {
+                    compa.innerHTML = "Compatibilidad media";
+                    descripCompa.innerHTML = "Cuando se trata de relaciones sentimentales, lo tienen más complicado. Su unión suele ser demasiado tormentosa, ya que se caracterizan por caer de vez en cuando en la soberbia y la vanidad. Cuando Aries y Leo chocan, parece que se van a destripar, aunque solo lo parezca; la reconciliación será maravillosa en todos los sentidos, especialmente en el sexual (así, cualquiera discute).";
+                } else if (signo2 === "virgo2") {
+                    compa.innerHTML = "Compatibilidad baja";
+                    descripCompa.innerHTML = "Las riñas son frecuentes; en realidad, discuten casi por todo: por sentimientos, por dinero, por celos y un largo etcétera. Es más que obvio que tienen personalidades diferentes, pero si en lugar de pelear por ello, aprenden a ver lo complementario de su relación, las cosas entre Aries y Virgo irían muchísimo mejor y formarían una pareja apasionante, compleja y completa ¡el esfuerzo merecerá la pena!";
+                } else if (signo2 === "libra2") {
+                    compa.innerHTML = "Compatibilidad baja";
+                    descripCompa.innerHTML = "Si deciden unir sus vidas, su relación, en muchos casos, suele estar sometida a derivas constantes. Son personas diferentes, y encima, van a coincidir en una terquedad enorme; Aries y Libra no dan marcha atrás ni para coger impulso. En cualquier caso, la atracción sexual que sienten es potentísima, así que las reconciliaciones serán más que gozosas.";
+                } else if (signo2 === "escorpio2") {
+                    compa.innerHTML = "Compatibilidad media";
+                    descripCompa.innerHTML = "Cuando forman una pareja, lo más característico de su unión es el atractivo sexual que comparten, de eso no cabe ninguna duda; sin embargo, el resto de las facetas de su relación son como un expediente X. Cíclicamente suelen atravesar periodos de dificultades, algo normal para todo ser humano, aunque en su caso se agranda y puede hacer peligrar muy en serio su relación.";
+                } else if (signo2 === "sagitario2") {
+                    compa.innerHTML = "Compatibilidad media";
+                    descripCompa.innerHTML = "Su unión resultará muy avenida en la mayoría de los casos, a pesar de que parece encantarles llevarse la contraria... Sus choques suelen ser pasajeros, y tan pronto como llegan, se van, así, sin más. Por otra parte, estos dos signos comparten algo que les fuertemente: su pasión por los viajes. Aries y Sagitario no podrían encontrar mejores camaradas para disfrutar de una de las mejores aventuras: el amor.";
+                } else if (signo2 === "capricornio2") {
+                    compa.innerHTML = "Compatibilidad baja";
+                    descripCompa.innerHTML = "Cuando forman una pareja lo tienen bastante más difícil, ya que cuando estas dos personas se encuentran en la vida que no sea profesional, no suelen sentir demasiada atracción por la otra parte, incluso se ignoran. Además, tienen una personalidad marcada por el individualismo de sus caracteres, algo que les impide compenetrarse en la gran mayoría de los casos. ";
+                }
+            }
+
+            if (signo1 === "tauro") {
+                if (signo2 === "acuario2") {
+                    compa.innerHTML = "Compatibilidad baja";
+                    descripCompa.innerHTML = "Tauro y Acuario son signos que se encuadran dentro de los llamados fijos en la rueda zodiacal. Sus relaciones en esta combinación suelen ser complejas, sobre todo debido a que tienen personalidades muy distintas, aunque sus propios ascendentes y voluntad representan un rol determinante.";
+                } else if (signo2 === "piscis2") {
+                    compa.innerHTML = "Compatibilidad alta";
+                    descripCompa.innerHTML = "Su relación como pareja suele ser dichosa, Tauro y Piscis saben que tienen mucho que enseñar y aprender de su media naranja; además, las sonrisas es un ingrediente que no falta en su relación. Para terminar, comparten una comunicación extraordinaria.En fin, Tauro y Piscis seguramente llegarán a comprender como nadie lo mucho que se quieren. ¡Felicidades!";
+                } else if (signo2 === "aries2") {
+                    compa.innerHTML = "Compatibilidad media";
+                    descripCompa.innerHTML = "Cuando se trata de amor, Aries y Tauro también son distintos; si estas dos personas se encuentran, es difícil que Tauro dé el primer paso, casi seguro que será el signo de Aries quien lo haga. Sin embargo, una vez que su relación se asiente, será Tauro quien propicie el desarrollo de la misma. En cualquier caso, su historia puede ser muy bonita y enriquecedora, Aries será la parte más activa de la unión y Tauro la más reflexiva.";
+                } else if (signo2 === "tauro2") {
+                    compa.innerHTML = "Compatibilidad alta";
+                    descripCompa.innerHTML = "En el plano sentimental, la estabilidad es la norma en sus vidas, Tauro la necesita en todo momento. Sin embargo, si riñen, la testarudez puede hacerles permanecer sin hablarse durante mucho, mucho tiempo. De todos modos, su unión suele ser feliz y fructuosa, además, su fidelidad será para toda la vida. Cuando dos Tauro se enamoran, es extremadamente difícil que se separen, suelen formar una familia muy unida, y también numerosa. ¡Felicidades!";
+                } else if (signo2 === "geminis2") {
+                    compa.innerHTML = "Compatibilidad baja";
+                    descripCompa.innerHTML = "En el terreno sentimental, su unión suele tener más problemas que en el caso anterior. Para empezar, no suelen sentir demasiada atracción por una y otra parte cuando se encuentran por vez primera, casi al contrario. Una vez superado este primer inconveniente, el siguiente que se les plantea es más complicado: Tauro es una persona con una paciencia comparable a la de Job, pero Géminis es capaz de llevar a cualquiera hasta el borde de la locura. Y si Tauro pierde la paciencia, será mejor que Géminis se encuentre bien lejos... o lo lamentará.";
+                } else if (signo2 === "cancer2") {
+                    compa.innerHTML = "Compatibilidad media";
+                    descripCompa.innerHTML = "Sus relaciones en el complicado mundo de los sentimientos son parecidas a la relación anterior, pero menos asépticas. En el momento que se conocen, rápido se dan cuenta de que comparten muchas cosas; algo que contribuirá a que su relación comience bien. Otro aspecto que les une es su gusto por la vida doméstica, la comida y los niños, así que su hogar siempre suele contar con estos tres elementos que, sin duda, ayudan a que compartan una felicidad verdaderamente admirable.";
+                } else if (signo2 === "leo2") {
+                    compa.innerHTML = "Compatibilidad media";
+                    descripCompa.innerHTML = "Si se trata de relaciones de amor lo suyo es una odisea, si coinciden en algo, es por mera casualidad. Sin embargo, mientras permanezcan cerca compartirán algo en común que puede hacerles felices: un corazón muy grande, y noble. En cualquier caso, si optan por acercar sus posiciones, seguro que consiguen ser felices; después de todo, tienen una buena base sobre la que poner los cimientos más preciosos: los del amor.";
+                } else if (signo2 === "virgo2") {
+                    compa.innerHTML = "Compatibilidad alta";
+                    descripCompa.innerHTML = "Si forman una pareja, sus expectativas son mejores, ya que sea como sea se reconocen en almas gemelas, precisamente por eso conectan de una manera muy intensa y natural. Lo malo es que a veces su timidez puede hacer que no lleguen siquiera a formar una pareja. De todos modos, si superan ese pequeño problema, su relación irá dando pequeños pasos hacia lo que desean: el amor. Tauro y Virgo comparten un amor que se eleva por encima de todo lo demás. ¡Felicidades!";
+                } else if (signo2 === "libra2") {
+                    compa.innerHTML = "Compatibilidad baja";
+                    descripCompa.innerHTML = "Sus diferencias salen a la luz pronto cuando forman una pareja, además, el signo de Tauro termina con la boca abierta ante la capacidad camaleónica de su compañero-a con Libra es una realidad eso de que las apariencias engañan. Así las cosas, las discusiones pueden ser algo frecuentes, pero las reconciliaciones también, y resultan muy, muy satisfactorias, pues el sexo suele convertirse en una especie de pipa de la paz que comparten hasta el final.";
+                } else if (signo2 === "escorpio2") {
+                    compa.innerHTML = "Compatibilidad alta";
+                    descripCompa.innerHTML = "Por lo que respecta a sus relaciones en el terreno del amor, el resultado es ligeramente distinto al caso anterior en la mayor parte de los casos, pues se mezcla algo tan frágil como son los sentimientos humanos. Además, es necesario recordar que son personas muy testarudas (su característica más negativa en algunas circunstancias). De todos modos, lo que sí está muy claro es la atracción que sienten, y también su fidelidad manifiesta, por eso una vez que su relación se asienta, es difícil que sus vidas se aparten. ¡Felicidades!";
+                } else if (signo2 === "sagitario2") {
+                    compa.innerHTML = "Compatibilidad media";
+                    descripCompa.innerHTML = "Si Tauro y Sagitario forman una pareja, la situación se enreda un poco más, y a las diferentes opiniones económicas, se unirán dos formas de ser bastante opuestas, especialmente, en lo que respecta al sentido familiar y hogareño de Tauro, no compartido por Sagitario. De todas maneras, tienen otras cosas en común que hacen que su relación sea increíblemente buena cuando se ponen de acuerdo, y la mejor, es su fuerte atracción sexual. La pasión se convierte en su lazo de unión, ¡que la disfruten!";
+                } else if (signo2 === "capricornio2") {
+                    compa.innerHTML = "Compatibilidad alta";
+                    descripCompa.innerHTML = "Cuando forman una pareja su relación es de las mejores, Tauro y Capricornio son dos personas que tienen muchas cosas en común y en diferentes ámbitos. No obstante, el punto negro de su relación es la tendencia al rencor; sin duda, esto será lo que más problemas les ocasionen. De todos modos, se conocen como nadie y saben lo que tienen que hacer para lograr vencer ese problema: hablar. En fin, Tauro y Capricornio se sienten muy a gusto cerca y siempre tienen algo que compartir en sus vidas. ¡Felicidades!";
+                }
+            }
+
+            if (signo1 === "geminis") {
+                if (signo2 === "acuario2") {
+                    compa.innerHTML = "Compatibilidad media";
+                    descripCompa.innerHTML = "Géminis con Acuario forma una relación en que se combina un signo mutable, en el caso de Géminis, con un signo fijo, como es Acuario. Aunque aparentemente exista oposición entre esa mutabilidad y esa fijeza, en realidad no es para tanto y suelen equilibrarse con sus diferencias.";
+                } else if (signo2 === "piscis2") {
+                    compa.innerHTML = "Compatibilidad media";
+                    descripCompa.innerHTML = "Géminis y Piscis conforman una relación en que se mezclan dos signos mutables, por eso comparten algunas virtudes y bastantes defectos; su compatibilidad depende en buena medida del terreno en que se relacionen, y en cualquier caso, necesitan prestarse mutuamente mucha comprensión, tiempo y esfuerzo para llegar a cierto equilibrio";
+                } else if (signo2 === "aries2") {
+                    compa.innerHTML = "Compatibilidad alta";
+                    descripCompa.innerHTML = "Cuando hablamos de amor, estos dos signos conocen como nadie el significado de esa palabra, pero quizá de una manera extraña para el resto de la gente. Si Aries quiere mandar, por Géminis perfecto, así no tiene que llevar sobre sus espaldas el peso de la responsabilidad que tanto molesta a este signo. Además, a Aries no le molesta el carácter voluble de Géminis, simplemente deja que vaya a su ritmo.";
+                } else if (signo2 === "tauro2") {
+                    compa.innerHTML = "Compatibilidad baja";
+                    descripCompa.innerHTML = "En el terreno sentimental, su unión suele tener más problemas que en el caso anterior. Para empezar, no suelen sentir demasiada atracción por una y otra parte cuando se encuentran por vez primera, casi al contrario. Una vez superado este primer inconveniente, el siguiente que se les plantea es más complicado: Tauro es una persona con una paciencia comparable a la de Job, pero Géminis es capaz de llevar a cualquiera hasta el borde de la locura. Y si Tauro pierde la paciencia, será mejor que Géminis se encuentre bien lejos... o lo lamentará.";
+                } else if (signo2 === "geminis2") {
+                    compa.innerHTML = "Compatibilidad media";
+                    descripCompa.innerHTML = "Si forman una pareja su compatibilidad también suele ser considerable; si negaran a su media naranja, sería como negar su propia persona. Sin embargo, el punto negro de su relación es que cuando una parte no está en su mejor período, la otra parte tampoco, así que la situación puede empeorar bastante. De todas maneras, cuando todo marcha bien, su relación resulta magnífica en todos los sentidos. Dos Géminis, por amor, son capaces de poner el mundo boca abajo. ¡Felicidades!";
+                } else if (signo2 === "cancer2") {
+                    compa.innerHTML = "Compatibilidad baja";
+                    descripCompa.innerHTML = "Si forman una pareja lo tienen un poco más complicado, pues la armonía y estabilidad tan necesaria para Cáncer resulta casi una quimera con Géminis al lado, quien cambia de parecer tan rápido como el viento cambia de dirección, o simplemente deja de soplar. Ciertamente por ello, sus relaciones tenderán a estar envueltas en un clima turbulento; cuando Cáncer y Géminis se quieren, se quieren con locura, pero cuando se odian, se odian de veras...";
+                } else if (signo2 === "leo2") {
+                    compa.innerHTML = "Compatibilidad baja";
+                    descripCompa.innerHTML = "Cuando se trata de sus relaciones sentimentales el resultado es más complejo, puesto que la vanidad propia de Leo resulta peligrosa para Géminis. Y para Leo, esa propensión que presenta Géminis hacia el subterfugio resulta muy irritante; a veces, inaguantable. Finalmente, sus trifulcas son feroces, aunque luego las aguas vuelven a su cauce con relativa facilidad, para después volver a empezar.";
+                } else if (signo2 === "virgo2") {
+                    compa.innerHTML = "Compatibilidad media";
+                    descripCompa.innerHTML = "Cuando forman una pareja, sus relaciones sentimentales son más problemáticas, pero a cambio, también resultan más atractivas y excitantes; si bien mantienen bastantes contrastes, precisamente por eso tienden a estar cerca. Finalmente, algo que contribuye mucho a la buena marcha de su unión es la comunicación tan fluida que mantienen.";
+                } else if (signo2 === "libra2") {
+                    compa.innerHTML = "Compatibilidad media";
+                    descripCompa.innerHTML = "En el terreno sentimental, sus relaciones son extraordinarias en la mayor parte de los casos. Suelen disfrutar de una avenencia y respeto mutuo realmente fenomenales, aunque de vez en cuando, surjan los choques, como sucede con cualquier otra pareja. De igual forma, estos dos no conocen la palabra rutina en su relación: son dos personas con una imaginación muy viva que adoran mantener una comunicación fluida donde las haya.";
+                } else if (signo2 === "escorpio2") {
+                    compa.innerHTML = "Compatibilidad baja";
+                    descripCompa.innerHTML = "En sus relaciones sentimentales ocurre un poco lo mismo, tal vez por eso, tiendan a evitarse, a pesar de que comparten una atracción sexual potente donde las haya. El apasionamiento interviene en su unión con una fuerza irresistible, aunque luego la lógica tienda a separar sus vidas con la misma fuerza contrasentidos de la vida.";
+                } else if (signo2 === "sagitario2") {
+                    compa.innerHTML = "Compatibilidad media";
+                    descripCompa.innerHTML = "Cuando forman una pareja congenian, a pesar de que conocen las diferencias de carácter que tienen. Sagitario se caracteriza por una sinceridad que, en ocasiones, resulta demasiado cruda para su pareja, pero también posee una aptitud para idealizar asombrosa. Por su parte, Géminis posee un atractivo y capacidad de comunicación magnéticas para el otro signo.";
+                } else if (signo2 === "capricornio2") {
+                    compa.innerHTML = "Compatibilidad alta";
+                    descripCompa.innerHTML = "Cuando forman una pareja también suelen ser felices, además, sienten una atracción sexual muy potente; y no solamente eso, también mantienen una comunicación sumamente espontánea y sincera. Es posible que riñan de vez en cuando, pero resultan intelectualmente muy interesantes; les encanta mantener debates incluso sin sentido.";
+                }
+            }
+
+            if (signo1 === "cancer") {
+                if (signo2 === "acuario2") {
+                    compa.innerHTML = "Compatibilidad alta";
+                    descripCompa.innerHTML = "Cáncer y Acuario forman una unión en la que coinciden dos signos con particulares bien distintas: Cáncer es cardinal y Acuario es un signo que pertenece a los llamados fijos del zodíaco; precisamente por eso, su compatibilidad resulta en general una rareza extraordinaria y maravillosa.";
+                } else if (signo2 === "piscis2") {
+                    compa.innerHTML = "Compatibilidad media";
+                    descripCompa.innerHTML = "En el plano sentimental su unión suele resultar equilibrada, puesto que ni una parte ni la otra se altera con facilidad, y menos todavía cuando se unen. Además, a Piscis le viene de perlas tener a alguien a su lado tan firme como Cáncer. Sin embargo, a veces, la inquietud de Piscis puede llevarle a explorar territorios que no son compartidos para nada por el posesivo signo de Cáncer.";
+                } else if (signo2 === "aries2") {
+                    compa.innerHTML = "Compatibilidad baja";
+                    descripCompa.innerHTML = "En el plano sentimental se suelen comportar de la misma forma: siempre quieren que se haga lo que quieren, precisamente por eso, las disputas se sucederán. Además, son personas que tienen una facilidad pasmosa para herirse, y cuando Aries o Cáncer sienten daño, no olvidan, nunca.";
+                } else if (signo2 === "tauro2") {
+                    compa.innerHTML = "Compatibilidad media";
+                    descripCompa.innerHTML = "Sus relaciones en el complicado mundo de los sentimientos son parecidas a la relación anterior, pero menos asépticas. En el momento que se conocen, rápido se dan cuenta de que comparten muchas cosas; algo que contribuirá a que su relación comience bien. Otro aspecto que les une es su gusto por la vida doméstica, la comida y los niños, así que su hogar siempre suele contar con estos tres elementos que, sin duda, ayudan a que compartan una felicidad verdaderamente admirable.";
+                } else if (signo2 === "geminis2") {
+                    compa.innerHTML = "Compatibilidad baja";
+                    descripCompa.innerHTML = "Si forman una pareja lo tienen un poco más complicado, pues la armonía y estabilidad tan necesaria para Cáncer resulta casi una quimera con Géminis al lado, quien cambia de parecer tan rápido como el viento cambia de dirección, o simplemente deja de soplar. Ciertamente por ello, sus relaciones tenderán a estar envueltas en un clima turbulento; cuando Cáncer y Géminis se quieren, se quieren con locura, pero cuando se odian, se odian de veras...";
+                } else if (signo2 === "cancer2") {
+                    compa.innerHTML = "Compatibilidad alta";
+                    descripCompa.innerHTML = "Si forman una unión en una pareja sentimental también suele resultar favorable, puesto que como son muy semejantes, sienten casi igual; los malentendidos no suelen darse en su relación. Asimismo, no hay nadie en el mundo que pueda apoyar, comprender y cuidar a un Cangrejo como otro Cangrejo. En fin, su pareja es una de las mejores que pueden darse para su signo. ¡Felicidades!";
+                } else if (signo2 === "leo2") {
+                    compa.innerHTML = "Compatibilidad baja";
+                    descripCompa.innerHTML = "Una pareja formada por Cáncer y Leo puede que no sea capaz de disfrutar de una felicidad completa, o será difícil que lo hagan, aunque si se esfuerzan, es posible que puedan conseguirlo. ¡Ánimo!";
+                } else if (signo2 === "virgo2") {
+                    compa.innerHTML = "Compatibilidad media";
+                    descripCompa.innerHTML = "Si forman una pareja, la posibilidad de disfrutar de un futuro en común es enorme; se apoyan, comprenden y animan mutuamente todo el tiempo. El signo de Cáncer ayuda económicamente al otro signo, y Virgo hace lo propio con Cáncer, aunque inmaterialmente. No obstante, la parte más negativa de su unión es la tendencia de Virgo a buscar la independencia sin contar con otra parte.";
+                } else if (signo2 === "libra2") {
+                    compa.innerHTML = "Compatibilidad media";
+                    descripCompa.innerHTML = "Cáncer posee la paciencia necesaria para aguantar los malos momentos y la testarudez de Libra, así que sus fuerzas se compensan en buena medida; además, cuando se trata de amor... saben perdonar y olvidar.";
+                } else if (signo2 === "escorpio2") {
+                    compa.innerHTML = "Compatibilidad baja";
+                    descripCompa.innerHTML = "Comparten virtudes notables, pero también otras que por desgracia, no lo son tanto, como los vicios. De todas maneras, si deciden hacer como en el ámbito laboral; es decir, caminar en la misma dirección, su futuro será floreciente y feliz consciente o inconscientemente saben que arrepentirse de algo es transformar el pasado.";
+                } else if (signo2 === "sagitario2") {
+                    compa.innerHTML = "Compatibilidad baja";
+                    descripCompa.innerHTML = "Si se unen en una pareja, necesitarán ceder mucho para alcanzar cierto equilibrio. Para empezar, mantienen diferencias a la hora de manejar el dinero; Cáncer no se quiere desprender de él, cuando Sagitario tiende a que dure poco en su posesión";
+                } else if (signo2 === "capricornio2") {
+                    compa.innerHTML = "Compatibilidad alta";
+                    descripCompa.innerHTML = "Cáncer y Capricornio son dos signos cardinales unidos, y en este caso en concreto, sus relaciones suelen ser atractivas para ambos, aunque no exentas de peligro: comparten formas de ser y gustos, aunque las tonalidades que les caracterizan son bien distintas, y complementarias también.";
+                }
+            }
+
+            if (signo1 === "leo") {
+                if (signo2 === "acuario2") {
+                    compa.innerHTML = "Compatibilidad baja";
+                    descripCompa.innerHTML = "Leo y Acuario están contenidos dentro de los signos fijos en la rueda zodiacal; generalmente, sus relaciones serán algo turbulentas en la mayoría de los casos. De todas maneras, es necesario aclarar que dependerán en buena medida del ámbito en el que se desarrollen y de la voluntad que pongan.";
+                } else if (signo2 === "piscis2") {
+                    compa.innerHTML = "Compatibilidad baja";
+                    descripCompa.innerHTML = "Cuando forman una pareja, la inestabilidad propia del Pez, mezclada con la tendencia a la rutina del signo de Leo dan como resultado un desequilibrio chocante, o también puede ser todo lo contrario, depende. Piscis se mueve según sus sentimientos, pero Leo, a veces, no es capaz de entenderlo, su razón se lo impide.";
+                } else if (signo2 === "aries2") {
+                    compa.innerHTML = "Compatibilidad media";
+                    descripCompa.innerHTML = "Cuando se trata de relaciones sentimentales, lo tienen más complicado. Su unión suele ser demasiado tormentosa, ya que se caracterizan por caer de vez en cuando en la soberbia y la vanidad. Cuando Aries y Leo chocan, parece que se van a destripar, aunque solo lo parezca; la reconciliación será maravillosa en todos los sentidos, especialmente en el sexual (así, cualquiera discute).";
+                } else if (signo2 === "tauro2") {
+                    compa.innerHTML = "Compatibilidad media";
+                    descripCompa.innerHTML = "Si se trata de relaciones de amor lo suyo es una odisea, si coinciden en algo, es por mera casualidad. Sin embargo, mientras permanezcan cerca compartirán algo en común que puede hacerles felices: un corazón muy grande, y noble. En cualquier caso, si optan por acercar sus posiciones, seguro que consiguen ser felices; después de todo, tienen una buena base sobre la que poner los cimientos más preciosos: los del amor.";
+                } else if (signo2 === "geminis2") {
+                    compa.innerHTML = "Compatibilidad baja";
+                    descripCompa.innerHTML = "Cuando se trata de sus relaciones sentimentales el resultado es más complejo, puesto que la vanidad propia de Leo resulta peligrosa para Géminis. Y para Leo, esa propensión que presenta Géminis hacia el subterfugio resulta muy irritante; a veces, inaguantable. Finalmente, sus trifulcas son feroces, aunque luego las aguas vuelven a su cauce con relativa facilidad, para después volver a empezar.";
+                } else if (signo2 === "cancer2") {
+                    compa.innerHTML = "Compatibilidad baja";
+                    descripCompa.innerHTML = "Una pareja formada por Cáncer y Leo puede que no sea capaz de disfrutar de una felicidad completa, o será difícil que lo hagan, aunque si se esfuerzan, es posible que puedan conseguirlo. ¡Ánimo!";
+                } else if (signo2 === "leo2") {
+                    compa.innerHTML = "Compatibilidad baja";
+                    descripCompa.innerHTML = "En el plano sentimental, en una pareja formada por dos Leo no es extraño que los enfrentamientos sean frecuentes, dado su personalidad poderosa; algo que les resulta prácticamente imposible es desistir de una opinión o propósito. Otro de los riesgos de su unión es la tendencia a la dominar que tienen (y por doble partida), esto puede llevarles a luchas como las de los mismos leones: feroces.";
+                } else if (signo2 === "virgo2") {
+                    compa.innerHTML = "Compatibilidad media";
+                    descripCompa.innerHTML = "En el plano sentimental lo tienen complicado, pero no imposible. Los rasgos más negativos de su unión suelen ser la tendencia a llevar la voz cantante en el caso de Leo, y la propensión a la crítica, en el caso de Virgo. Sin embargo, el rasgo más positivo suele ser una compatibilidad sexual plena (no está mal, ¿eh?). De todas maneras, son dos personas muy inteligentes y curiosas.";
+                } else if (signo2 === "libra2") {
+                    compa.innerHTML = "Compatibilidad alta";
+                    descripCompa.innerHTML = "En el plano sentimental, cuando Leo y Libra se conocen al principio el sentimiento de admiración mutua es lo primero, seguido de una comunicación muy fluida, seguro que no pararán de hablar de todo en su primer encuentro. Leo y Libra coinciden en numerosos aspectos, pero especialmente en uno no demasiado positivo, o sí, según quién lo mire: son un ejemplo de derroche en el término más amplio de la palabra es posible que no amasen una fortuna en la vida, pero tendrán muchas otras cosas que entregarse, seguramente, mejores.";
+                } else if (signo2 === "escorpio2") {
+                    compa.innerHTML = "Compatibilidad media";
+                    descripCompa.innerHTML = "Si Leo y Escorpio se empeñan en el amor, no habrá nada ni nadie que pueda hacerles romper, como son tan tercos-as insisten en quererse a pesar de las dificultades, y si después de todo, merece la pena seguir juntos-as, seguirán hasta el final.";
+                } else if (signo2 === "sagitario2") {
+                    compa.innerHTML = "Compatibilidad alta";
+                    descripCompa.innerHTML = "Cuando forman una pareja, sus expectativas de un futuro en común son estupendas, puesto que su unión suele estar agraciada con el don de la fortuna en el sentido más amplio de la palabra. Una de las complicaciones mayores que presentan es la propensión de Sagitario a, sin querer, herir el orgullo de Leo con sus palabras. ";
+                } else if (signo2 === "capricornio2") {
+                    compa.innerHTML = "Compatibilidad baja";
+                    descripCompa.innerHTML = "En el universo de la pareja su unión es algo más peliaguda debido a los diferentes conceptos que tienen de la vida, especialmente en lo que al plano económico se refiere: Capricornio sin duda concederá una importancia suma a la economía, pero Leo rara vez compartirá esa idea. Además, otro punto complicado es la testarudez de Leo y Capricornio, sus reconciliaciones se hacen esperar, aunque cuando llegan, se convierten en explosiones sexuales que pueden durar, durar y durar..";
+                }
+            }
+
+            if (signo1 === "virgo") {
+                if (signo2 === "acuario2") {
+                    compa.innerHTML = "Compatibilidad media";
+                    descripCompa.innerHTML = "Virgo forma parte de los signos mutables en la rueda del zodíaco y el signo de Acuario es uno de los pertenecientes a los signos fijos. Sus relaciones, en la mayoría de los casos, no son malas, ya que comparten una buena comunicación pese a los contrastes que les caracterizan.";
+                } else if (signo2 === "piscis2") {
+                    compa.innerHTML = "Compatibilidad media";
+                    descripCompa.innerHTML = "Sus relaciones en el plano sentimental tampoco resultan demasiado dichosas, puesto que la estabilidad propia del signo de Virgo se esfuma con alguien tan inestable como Piscis cerca, algo que para Virgo resulta insoportable, quizás demasiado. Sin embargo y con frecuencia, sienten una atracción sexual intensa que podrá unir sus vidas íntimamente por momentos, aunque luego, cada cual vaya discurriendo tranquilamente por otros derroteros.";
+                } else if (signo2 === "aries2") {
+                    compa.innerHTML = "Compatibilidad baja";
+                    descripCompa.innerHTML = "Las riñas son frecuentes; en realidad, discuten casi por todo: por sentimientos, por dinero, por celos y un largo etcétera. Es más que obvio que tienen personalidades diferentes, pero si en lugar de pelear por ello, aprenden a ver lo complementario de su relación, las cosas entre Aries y Virgo irían muchísimo mejor y formarían una pareja apasionante, compleja y completa ¡el esfuerzo merecerá la pena!";
+                } else if (signo2 === "tauro2") {
+                    compa.innerHTML = "Compatibilidad alta";
+                    descripCompa.innerHTML = "Si forman una pareja, sus expectativas son mejores, ya que sea como sea se reconocen en almas gemelas, precisamente por eso conectan de una manera muy intensa y natural. Lo malo es que a veces su timidez puede hacer que no lleguen siquiera a formar una pareja. De todos modos, si superan ese pequeño problema, su relación irá dando pequeños pasos hacia lo que desean: el amor. Tauro y Virgo comparten un amor que se eleva por encima de todo lo demás. ¡Felicidades!";
+                } else if (signo2 === "geminis2") {
+                    compa.innerHTML = "Compatibilidad media";
+                    descripCompa.innerHTML = "Cuando forman una pareja, sus relaciones sentimentales son más problemáticas, pero a cambio, también resultan más atractivas y excitantes; si bien mantienen bastantes contrastes, precisamente por eso tienden a estar cerca. Finalmente, algo que contribuye mucho a la buena marcha de su unión es la comunicación tan fluida que mantienen.";
+                } else if (signo2 === "cancer2") {
+                    compa.innerHTML = "Compatibilidad media";
+                    descripCompa.innerHTML = "Si forman una pareja, la posibilidad de disfrutar de un futuro en común es enorme; se apoyan, comprenden y animan mutuamente todo el tiempo. El signo de Cáncer ayuda económicamente al otro signo, y Virgo hace lo propio con Cáncer, aunque inmaterialmente. No obstante, la parte más negativa de su unión es la tendencia de Virgo a buscar la independencia sin contar con otra parte.";
+                } else if (signo2 === "leo2") {
+                    compa.innerHTML = "Compatibilidad media";
+                    descripCompa.innerHTML = "En el plano sentimental lo tienen complicado, pero no imposible. Los rasgos más negativos de su unión suelen ser la tendencia a llevar la voz cantante en el caso de Leo, y la propensión a la crítica, en el caso de Virgo. Sin embargo, el rasgo más positivo suele ser una compatibilidad sexual plena (no está mal, ¿eh?). De todas maneras, son dos personas muy inteligentes y curiosas.";
+                } else if (signo2 === "virgo2") {
+                    compa.innerHTML = "Compatibilidad media";
+                    descripCompa.innerHTML = "En el terreno sentimental se llevan fundamentalmente bien, puesto que tienen gustos y formas de ser y comportarse semejantes; el problema de su relación radica en la excesiva reserva que presentan, algo que no deja demasiado espacio para la sorpresa, así que su unión corre el riesgo de resultar demasiado monótona.";
+                } else if (signo2 === "libra2") {
+                    compa.innerHTML = "Compatibilidad alta";
+                    descripCompa.innerHTML = "Cuando forman una pareja sus relaciones también suelen ser agraciadas, entre otras razones, porque son dos personas que adoran la perfección por encima de todo, así que siempre estarán intentando mejorar su unión. De vez en cuando, su pareja, como todas, correrá el riesgo de caer en la tan temida rutina, aunque Libra se encargará de que eso no ocurra.";
+                } else if (signo2 === "escorpio2") {
+                    compa.innerHTML = "Compatibilidad alta";
+                    descripCompa.innerHTML = "Virgo y Escorpio son la combinación más completa que puede darse entre dos para ser capaces de mitigar lo peor y potenciar lo mejor de cada cual. Virgo poco a poco adquiere confianza en sí mismo con Escorpio cerca, quien a su vez, consigue confianza en sí y en los demás con Virgo al lado. En definitiva, son tal para cual. ¡Felicidades!";
+                } else if (signo2 === "sagitario2") {
+                    compa.innerHTML = "Compatibilidad baja";
+                    descripCompa.innerHTML = "Cuando forman una pareja suelen tener problemas, puesto que sus maneras de ver la vida, sencillamente, no coinciden. Virgo es una persona tan sosegada que Sagitario solo con estar a su lado se pone de los nervios. Por su parte, este último signo puede sentir su libertad amenazada con Virgo al lado, y para Sagitario su libertad es sagrada.";
+                } else if (signo2 === "capricornio2") {
+                    compa.innerHTML = "Compatibilidad alta";
+                    descripCompa.innerHTML = "Si forman una pareja tienen muchas posibilidades de llevarse bien, pues comprenden la individualidad de cada cual a la perfección. Puede que Virgo y Capricornio no sean personas de palabras cariñosas y caricias constantes, pero se demostrarán amor de muchas y diferentes formas. La mentira no tiene cabida en su unión, por eso confían tanto; sin duda, su relación, sea del carácter que sea, hace gala de una sinceridad fenomenal. En fin, Virgo y Capricornio tendrán muy buenas expectativas de futuro en común. ¡Felicidades!";
+                }
+            }
+
+            if (signo1 === "libra") {
+                if (signo2 === "acuario2") {
+                    compa.innerHTML = "Compatibilidad media";
+                    descripCompa.innerHTML = "Libra es un signo que se encuadra dentro de los signos cardinales y Acuario forma parte de los signos fijos del zodiaco. Generalmente presentan algunas diferencias que pueden resultar complementarias, si se deciden a suavizar sus diferencias en las relaciones que puedan desarrollar.";
+                } else if (signo2 === "piscis2") {
+                    compa.innerHTML = "Compatibilidad alta";
+                    descripCompa.innerHTML = "Cuando forman una pareja la atracción que sienten es muy fuerte; Libra y Piscis suelen mantener unas relaciones sexuales que van mucho más allá del puro placer físico, hasta llegar al espiritual. Asimismo, también comparten una infinidad de ideas y de aficiones que, si cabe, les hace sentirse aún mejor y madurar a la par.";
+                } else if (signo2 === "aries2") {
+                    compa.innerHTML = "Compatibilidad baja";
+                    descripCompa.innerHTML = "Si deciden unir sus vidas, su relación, en muchos casos, suele estar sometida a derivas constantes. Son personas diferentes, y encima, van a coincidir en una terquedad enorme; Aries y Libra no dan marcha atrás ni para coger impulso. En cualquier caso, la atracción sexual que sienten es potentísima, así que las reconciliaciones serán más que gozosas.";
+                } else if (signo2 === "tauro2") {
+                    compa.innerHTML = "Compatibilidad baja";
+                    descripCompa.innerHTML = "Sus diferencias salen a la luz pronto cuando forman una pareja, además, el signo de Tauro termina con la boca abierta ante la capacidad camaleónica de su compañero-a con Libra es una realidad eso de que las apariencias engañan. Así las cosas, las discusiones pueden ser algo frecuentes, pero las reconciliaciones también, y resultan muy, muy satisfactorias, pues el sexo suele convertirse en una especie de pipa de la paz que comparten hasta el final.";
+                } else if (signo2 === "geminis2") {
+                    compa.innerHTML = "Compatibilidad media";
+                    descripCompa.innerHTML = "En el terreno sentimental, sus relaciones son extraordinarias en la mayor parte de los casos. Suelen disfrutar de una avenencia y respeto mutuo realmente fenomenales, aunque de vez en cuando, surjan los choques, como sucede con cualquier otra pareja. De igual forma, estos dos no conocen la palabra rutina en su relación: son dos personas con una imaginación muy viva que adoran mantener una comunicación fluida donde las haya.";
+                } else if (signo2 === "cancer2") {
+                    compa.innerHTML = "Compatibilidad media";
+                    descripCompa.innerHTML = "Cáncer posee la paciencia necesaria para aguantar los malos momentos y la testarudez de Libra, así que sus fuerzas se compensan en buena medida; además, cuando se trata de amor... saben perdonar y olvidar.";
+                } else if (signo2 === "leo2") {
+                    compa.innerHTML = "Compatibilidad alta";
+                    descripCompa.innerHTML = "En el plano sentimental, cuando Leo y Libra se conocen al principio el sentimiento de admiración mutua es lo primero, seguido de una comunicación muy fluida, seguro que no pararán de hablar de todo en su primer encuentro. Leo y Libra coinciden en numerosos aspectos, pero especialmente en uno no demasiado positivo, o sí, según quién lo mire: son un ejemplo de derroche en el término más amplio de la palabra es posible que no amasen una fortuna en la vida, pero tendrán muchas otras cosas que entregarse, seguramente, mejores.";
+                } else if (signo2 === "virgo2") {
+                    compa.innerHTML = "Compatibilidad alta";
+                    descripCompa.innerHTML = "Cuando forman una pareja sus relaciones también suelen ser agraciadas, entre otras razones, porque son dos personas que adoran la perfección por encima de todo, así que siempre estarán intentando mejorar su unión. De vez en cuando, su pareja, como todas, correrá el riesgo de caer en la tan temida rutina, aunque Libra se encargará de que eso no ocurra.";
+                } else if (signo2 === "libra2") {
+                    compa.innerHTML = "Compatibilidad alta";
+                    descripCompa.innerHTML = "Cuando forman una pareja también les va bien; dos Libra se pasarán horas y horas conversando con una comunicación muy fluida. Puede que a veces la conversación se acalore y acaben discutiendo, pero eso no afectará a su relación; lo olvidarán tan rápido como ocurrió. Su punto más negativo radica en lo iguales que pueden llegar a ser, precisamente por eso, si una parte de la relación está atravesando por un mal momento, la otra parte también lo estará. Salvo esto, el resto será complicidad total. ¡Felicidades!";
+                } else if (signo2 === "escorpio2") {
+                    compa.innerHTML = "Compatibilidad alta";
+                    descripCompa.innerHTML = "En el plano sentimental, sin duda la capacidad de adaptación del signo de Libra suele ser la mejor baza de su relación; Escorpio, por su parte, sabe cómo mantener la alegría e interés de su pareja; además, también ceden un poquito para acercarse. Las diferencias surgirán de vez en cuando en su unión, aunque podrán contribuir a enriquecer una relación que, a todas luces, no es perfecta, pero sí enriquecedora en muchos y diversos sentidos. ¡Felicidades!";
+                } else if (signo2 === "sagitario2") {
+                    compa.innerHTML = "Compatibilidad alta";
+                    descripCompa.innerHTML = "Como pareja presentan muchas características positivas para poder ser felices. La comunicación es su punto más fuerte, por eso se pasan horas y horas hablando de sus intereses, planes, del futuro, la vida, etc. Libra y Sagitario se ayudan en lo que haga falta, por eso se sienten tan fuertes e inseparables. Consciente o inconscientemente notan que se necesitan para crecer, amarse, para vivir... ¡Felicidades!";
+                } else if (signo2 === "capricornio2") {
+                    compa.innerHTML = "Compatibilidad baja";
+                    descripCompa.innerHTML = "Cuando forman una pareja les pasa un poco lo mismo: pelean por llevar la voz cantante. Además, el signo de Capricornio es todavía más cabezota de lo que lo es Libra, más adaptable a todas luces. A favor de Capricornio hay que decir que tiene una paciencia casi infinita, así que Libra podrá relajarse. En definitiva, si pretenden hacerse la vida imposible, sin duda, lo conseguirán; pero si se proponen hacerse felices, conseguirán mucho más.";
+                }
+            }
+
+            if (signo1 === "escorpio") {
+                if (signo2 === "acuario2") {
+                    compa.innerHTML = "Compatibilidad baja";
+                    descripCompa.innerHTML = "El signo de Escorpio y el de Acuario comparten su carácter fijo dentro de la rueda del zodiaco; y en este caso en particular, lo anterior se traduce en unas relaciones complejas que, en principio, suelen conllevar muchos riesgos, puesto que a priori no resultan demasiado compatibles.";
+                } else if (signo2 === "piscis2") {
+                    compa.innerHTML = "Compatibilidad alta";
+                    descripCompa.innerHTML = "Escorpio y Piscis comparten una comunicación extraordinaria, incluso cualquiera diría que tienen algo así como telepatía. Como se conocen tan bien, saben cuáles son sus puntos débiles y los fuertes, pero evitan tocar los débiles y robustecer los fuertes; no soportan la idea de hacerse daño, su amor está por encima de todas las cosas. ¡Felicidades!";
+                } else if (signo2 === "aries2") {
+                    compa.innerHTML = "Compatibilidad media";
+                    descripCompa.innerHTML = "Cuando forman una pareja, lo más característico de su unión es el atractivo sexual que comparten, de eso no cabe ninguna duda; sin embargo, el resto de las facetas de su relación son como un expediente X. Cíclicamente suelen atravesar periodos de dificultades, algo normal para todo ser humano, aunque en su caso se agranda y puede hacer peligrar muy en serio su relación.";
+                } else if (signo2 === "tauro2") {
+                    compa.innerHTML = "Compatibilidad alta";
+                    descripCompa.innerHTML = "Por lo que respecta a sus relaciones en el terreno del amor, el resultado es ligeramente distinto al caso anterior en la mayor parte de los casos, pues se mezcla algo tan frágil como son los sentimientos humanos. Además, es necesario recordar que son personas muy testarudas (su característica más negativa en algunas circunstancias). De todos modos, lo que sí está muy claro es la atracción que sienten, y también su fidelidad manifiesta, por eso una vez que su relación se asienta, es difícil que sus vidas se aparten. ¡Felicidades!";
+                } else if (signo2 === "geminis2") {
+                    compa.innerHTML = "Compatibilidad baja";
+                    descripCompa.innerHTML = "En sus relaciones sentimentales ocurre un poco lo mismo, tal vez por eso, tiendan a evitarse, a pesar de que comparten una atracción sexual potente donde las haya. El apasionamiento interviene en su unión con una fuerza irresistible, aunque luego la lógica tienda a separar sus vidas con la misma fuerza contrasentidos de la vida.";
+                } else if (signo2 === "cancer2") {
+                    compa.innerHTML = "Compatibilidad baja";
+                    descripCompa.innerHTML = "Comparten virtudes notables, pero también otras que por desgracia, no lo son tanto, como los vicios. De todas maneras, si deciden hacer como en el ámbito laboral; es decir, caminar en la misma dirección, su futuro será floreciente y feliz consciente o inconscientemente saben que arrepentirse de algo es transformar el pasado.";
+                } else if (signo2 === "leo2") {
+                    compa.innerHTML = "Compatibilidad media";
+                    descripCompa.innerHTML = "Si Leo y Escorpio se empeñan en el amor, no habrá nada ni nadie que pueda hacerles romper, como son tan tercos-as insisten en quererse a pesar de las dificultades, y si después de todo, merece la pena seguir juntos-as, seguirán hasta el final.";
+                } else if (signo2 === "virgo2") {
+                    compa.innerHTML = "Compatibilidad alta";
+                    descripCompa.innerHTML = "Virgo y Escorpio son la combinación más completa que puede darse entre dos para ser capaces de mitigar lo peor y potenciar lo mejor de cada cual. Virgo poco a poco adquiere confianza en sí mismo con Escorpio cerca, quien a su vez, consigue confianza en sí y en los demás con Virgo al lado. En definitiva, son tal para cual. ¡Felicidades!";
+                } else if (signo2 === "libra2") {
+                    compa.innerHTML = "Compatibilidad alta";
+                    descripCompa.innerHTML = "En el plano sentimental, sin duda la capacidad de adaptación del signo de Libra suele ser la mejor baza de su relación; Escorpio, por su parte, sabe cómo mantener la alegría e interés de su pareja; además, también ceden un poquito para acercarse. Las diferencias surgirán de vez en cuando en su unión, aunque podrán contribuir a enriquecer una relación que, a todas luces, no es perfecta, pero sí enriquecedora en muchos y diversos sentidos. ¡Felicidades!";
+                } else if (signo2 === "escorpio2") {
+                    compa.innerHTML = "Compatibilidad baja";
+                    descripCompa.innerHTML = "En el plano sentimental, generalmente las perspectivas de futuro no son tan alentadoras; dependerán en buena medida del esfuerzo que realicen. El punto más negativo de su relación es que Escorpio nunca olvida, y en este caso, por doble partida; quienes les conocen suelen pensar que son personas rencorosas.";
+                } else if (signo2 === "sagitario2") {
+                    compa.innerHTML = "Compatibilidad media";
+                    descripCompa.innerHTML = "Cuando forman una pareja, Escorpio y Sagitario tienen buenos aspectos a priori; aunque tendrán que tener mucho cuidado, sobre todo el Sagitario, para no herir a su pareja con sus palabras, o se arrepentirá de cada una de ellas. De vez en cuando, los encontronazos resultarán atronadores, y como Escorpio no olvida fácilmente, Sagitario ya puede ir sacando a relucir todo su encanto para la seducción, conquistando otra vez a su media naranja ¡ojo!";
+                } else if (signo2 === "capricornio2") {
+                    compa.innerHTML = "Compatibilidad alta";
+                    descripCompa.innerHTML = "Cuando forman una pareja, la unión sentimental de Escorpio y Capricornio también es dichosa, aunque no sean personas demasiado dadas a la expresión verbal de su cariño, da igual, lo hacen de otras maneras igualmente placenteras. Escorpio y Capricornio comparten una comprensión extraordinaria, al mismo tiempo que se profesan una devoción notable. En fin, Escorpio y Capricornio son una pareja afortunada que se ama con naturalidad. ¡Felicidades!";
+                }
+            }
+
+            if (signo1 === "sagitario") {
+                if (signo2 === "acuario2") {
+                    compa.innerHTML = "Compatibilidad alta";
+                    descripCompa.innerHTML = "Sagitario se encuadra dentro de los llamados signos mutables y Acuario forma parte de los signos fijos del zodíaco. Generalmente sus relaciones suelen ser muy positivas la mayor parte de las veces, aunque las discusiones, cuando se dan, pueden escucharse a kilómetros a la redonda.";
+                } else if (signo2 === "piscis2") {
+                    compa.innerHTML = "Compatibilidad baja";
+                    descripCompa.innerHTML = "Cuando forman una pareja es posible que mantengan bastantes diferencias; empezando por la excesiva sensibilidad del signo de Piscis, algo que unido a la verborrea propia de Sagitario, puede dar lugar a muchos malentendidos y conflictos. Tampoco son hábiles manejando el dinero, por eso suelen tener problemas económicos cada dos por tres. Sin embargo, comparten el mismo espíritu tierno, cándido y espontáneo; ¡ánimo!";
+                } else if (signo2 === "aries2") {
+                    compa.innerHTML = "Compatibilidad media";
+                    descripCompa.innerHTML = "Su unión resultará muy avenida en la mayoría de los casos, a pesar de que parece encantarles llevarse la contraria... Sus choques suelen ser pasajeros, y tan pronto como llegan, se van, así, sin más. Por otra parte, estos dos signos comparten algo que les fuertemente: su pasión por los viajes. Aries y Sagitario no podrían encontrar mejores camaradas para disfrutar de una de las mejores aventuras: el amor.";
+                } else if (signo2 === "tauro2") {
+                    compa.innerHTML = "Compatibilidad media";
+                    descripCompa.innerHTML = "Si Tauro y Sagitario forman una pareja, la situación se enreda un poco más, y a las diferentes opiniones económicas, se unirán dos formas de ser bastante opuestas, especialmente, en lo que respecta al sentido familiar y hogareño de Tauro, no compartido por Sagitario. De todas maneras, tienen otras cosas en común que hacen que su relación sea increíblemente buena cuando se ponen de acuerdo, y la mejor, es su fuerte atracción sexual. La pasión se convierte en su lazo de unión, ¡que la disfruten!";
+                } else if (signo2 === "geminis2") {
+                    compa.innerHTML = "Compatibilidad media";
+                    descripCompa.innerHTML = "Cuando forman una pareja congenian, a pesar de que conocen las diferencias de carácter que tienen. Sagitario se caracteriza por una sinceridad que, en ocasiones, resulta demasiado cruda para su pareja, pero también posee una aptitud para idealizar asombrosa. Por su parte, Géminis posee un atractivo y capacidad de comunicación magnéticas para el otro signo.";
+                } else if (signo2 === "cancer2") {
+                    compa.innerHTML = "Compatibilidad baja";
+                    descripCompa.innerHTML = "Si se unen en una pareja, necesitarán ceder mucho para alcanzar cierto equilibrio. Para empezar, mantienen diferencias a la hora de manejar el dinero; Cáncer no se quiere desprender de él, cuando Sagitario tiende a que dure poco en su posesión";
+                } else if (signo2 === "leo2") {
+                    compa.innerHTML = "Compatibilidad alta";
+                    descripCompa.innerHTML = "Cuando forman una pareja, sus expectativas de un futuro en común son estupendas, puesto que su unión suele estar agraciada con el don de la fortuna en el sentido más amplio de la palabra. Una de las complicaciones mayores que presentan es la propensión de Sagitario a, sin querer, herir el orgullo de Leo con sus palabras. ";
+                } else if (signo2 === "virgo2") {
+                    compa.innerHTML = "Compatibilidad baja";
+                    descripCompa.innerHTML = "Cuando forman una pareja suelen tener problemas, puesto que sus maneras de ver la vida, sencillamente, no coinciden. Virgo es una persona tan sosegada que Sagitario solo con estar a su lado se pone de los nervios. Por su parte, este último signo puede sentir su libertad amenazada con Virgo al lado, y para Sagitario su libertad es sagrada.";
+                } else if (signo2 === "libra2") {
+                    compa.innerHTML = "Compatibilidad alta";
+                    descripCompa.innerHTML = "Como pareja presentan muchas características positivas para poder ser felices. La comunicación es su punto más fuerte, por eso se pasan horas y horas hablando de sus intereses, planes, del futuro, la vida, etc. Libra y Sagitario se ayudan en lo que haga falta, por eso se sienten tan fuertes e inseparables. Consciente o inconscientemente notan que se necesitan para crecer, amarse, para vivir... ¡Felicidades!";
+                } else if (signo2 === "escorpio2") {
+                    compa.innerHTML = "Compatibilidad media";
+                    descripCompa.innerHTML = "Cuando forman una pareja, Escorpio y Sagitario tienen buenos aspectos a priori; aunque tendrán que tener mucho cuidado, sobre todo el Sagitario, para no herir a su pareja con sus palabras, o se arrepentirá de cada una de ellas. De vez en cuando, los encontronazos resultarán atronadores, y como Escorpio no olvida fácilmente, Sagitario ya puede ir sacando a relucir todo su encanto para la seducción, conquistando otra vez a su media naranja ¡ojo!";
+                } else if (signo2 === "sagitario2") {
+                    compa.innerHTML = "Compatibilidad alta";
+                    descripCompa.innerHTML = "Cuando forman una pareja tampoco tienen demasiados problemas para armonizar; además, sienten una pasión impetuosa que hace que compartan momentos íntimos de mucha intensidad y placer. En resumidas cuentas, el signo de Sagitario tiene tanta energía y optimismo que, cuando se unen dos, el resultado es una relación maravillosa en la que se comparte y disfruta todo hasta el último suspiro. ¡Felicidades!";
+                } else if (signo2 === "capricornio2") {
+                    compa.innerHTML = "Compatibilidad alta";
+                    descripCompa.innerHTML = "Cuando forman una pareja tienen algunos problemas más, pero es innegable la atracción que sienten hacia su media naranja; son un buen ejemplo de que las diferencias bien entendidas resultan positivas; lo malo es cuando se muestran inflexibles, pues no dan su brazo a torcer. Además, tienden a equilibrarse en buena medida: Capricornio contribuye a que Sagitario ponga los pies en la tierra y deje de idealizarlo todo, y Sagitario a que Capricornio se olvide de tanta formalidad y libere su imaginación. ¡Felicidades!";
+                }
+            }
+
+            if (signo1 === "capricornio") {
+                if (signo2 === "acuario2") {
+                    compa.innerHTML = "Compatibilidad baja";
+                    descripCompa.innerHTML = "Capricornio es un signo de carácter cardinal y Acuario es un signo de carácter fijo, así que, en general y en este caso en concreto, tendrán algunas dificultades, dependiendo en buena medida de la voluntad que pongan para llevarse bien y de los ámbitos en que se relacionen.";
+                } else if (signo2 === "piscis2") {
+                    compa.innerHTML = "Compatibilidad alta";
+                    descripCompa.innerHTML = "Cuando forman una pareja les pasa más o menos lo mismo; saben que son diferentes, pero conscientes de ello, intentan mejorarse, y simplemente, lo que le falta a Capricornio, a Piscis le sobra, y viceversa. Piscis con Capricornio al lado deja a un lado sus dudas, y a la vez, este último signo sale de la inflexibilidad y rigidez tan propia de él. En fin, un Carnero y un Pez juntos saben vivir bien y desarrollarse. ¡Felicidades!";
+                } else if (signo2 === "aries2") {
+                    compa.innerHTML = "Compatibilidad baja";
+                    descripCompa.innerHTML = "Cuando forman una pareja lo tienen bastante más difícil, ya que cuando estas dos personas se encuentran en la vida que no sea profesional, no suelen sentir demasiada atracción por la otra parte, incluso se ignoran. Además, tienen una personalidad marcada por el individualismo de sus caracteres, algo que les impide compenetrarse en la gran mayoría de los casos. ";
+                } else if (signo2 === "tauro2") {
+                    compa.innerHTML = "Compatibilidad alta";
+                    descripCompa.innerHTML = "Cuando forman una pareja su relación es de las mejores, Tauro y Capricornio son dos personas que tienen muchas cosas en común y en diferentes ámbitos. No obstante, el punto negro de su relación es la tendencia al rencor; sin duda, esto será lo que más problemas les ocasionen. De todos modos, se conocen como nadie y saben lo que tienen que hacer para lograr vencer ese problema: hablar. En fin, Tauro y Capricornio se sienten muy a gusto cerca y siempre tienen algo que compartir en sus vidas. ¡Felicidades!";
+                } else if (signo2 === "geminis2") {
+                    compa.innerHTML = "Compatibilidad alta";
+                    descripCompa.innerHTML = "Cuando forman una pareja también suelen ser felices, además, sienten una atracción sexual muy potente; y no solamente eso, también mantienen una comunicación sumamente espontánea y sincera. Es posible que riñan de vez en cuando, pero resultan intelectualmente muy interesantes; les encanta mantener debates incluso sin sentido.";
+                } else if (signo2 === "cancer2") {
+                    compa.innerHTML = "Compatibilidad alta";
+                    descripCompa.innerHTML = "Cáncer y Capricornio son dos signos cardinales unidos, y en este caso en concreto, sus relaciones suelen ser atractivas para ambos, aunque no exentas de peligro: comparten formas de ser y gustos, aunque las tonalidades que les caracterizan son bien distintas, y complementarias también.";
+                } else if (signo2 === "leo2") {
+                    compa.innerHTML = "Compatibilidad baja";
+                    descripCompa.innerHTML = "En el universo de la pareja su unión es algo más peliaguda debido a los diferentes conceptos que tienen de la vida, especialmente en lo que al plano económico se refiere: Capricornio sin duda concederá una importancia suma a la economía, pero Leo rara vez compartirá esa idea. Además, otro punto complicado es la testarudez de Leo y Capricornio, sus reconciliaciones se hacen esperar, aunque cuando llegan, se convierten en explosiones sexuales que pueden durar, durar y durar..";
+                } else if (signo2 === "virgo2") {
+                    compa.innerHTML = "Compatibilidad alta";
+                    descripCompa.innerHTML = "Si forman una pareja tienen muchas posibilidades de llevarse bien, pues comprenden la individualidad de cada cual a la perfección. Puede que Virgo y Capricornio no sean personas de palabras cariñosas y caricias constantes, pero se demostrarán amor de muchas y diferentes formas. La mentira no tiene cabida en su unión, por eso confían tanto; sin duda, su relación, sea del carácter que sea, hace gala de una sinceridad fenomenal. En fin, Virgo y Capricornio tendrán muy buenas expectativas de futuro en común. ¡Felicidades!";
+                } else if (signo2 === "libra2") {
+                    compa.innerHTML = "Compatibilidad baja";
+                    descripCompa.innerHTML = "Cuando forman una pareja les pasa un poco lo mismo: pelean por llevar la voz cantante. Además, el signo de Capricornio es todavía más cabezota de lo que lo es Libra, más adaptable a todas luces. A favor de Capricornio hay que decir que tiene una paciencia casi infinita, así que Libra podrá relajarse. En definitiva, si pretenden hacerse la vida imposible, sin duda, lo conseguirán; pero si se proponen hacerse felices, conseguirán mucho más.";
+                } else if (signo2 === "escorpio2") {
+                    compa.innerHTML = "Compatibilidad alta";
+                    descripCompa.innerHTML = "Cuando forman una pareja, la unión sentimental de Escorpio y Capricornio también es dichosa, aunque no sean personas demasiado dadas a la expresión verbal de su cariño, da igual, lo hacen de otras maneras igualmente placenteras. Escorpio y Capricornio comparten una comprensión extraordinaria, al mismo tiempo que se profesan una devoción notable. En fin, Escorpio y Capricornio son una pareja afortunada que se ama con naturalidad. ¡Felicidades!";
+                } else if (signo2 === "sagitario2") {
+                    compa.innerHTML = "Compatibilidad alta";
+                    descripCompa.innerHTML = "Cuando forman una pareja tienen algunos problemas más, pero es innegable la atracción que sienten hacia su media naranja; son un buen ejemplo de que las diferencias bien entendidas resultan positivas; lo malo es cuando se muestran inflexibles, pues no dan su brazo a torcer. Además, tienden a equilibrarse en buena medida: Capricornio contribuye a que Sagitario ponga los pies en la tierra y deje de idealizarlo todo, y Sagitario a que Capricornio se olvide de tanta formalidad y libere su imaginación. ¡Felicidades!";
+                } else if (signo2 === "capricornio2") {
+                    compa.innerHTML = "Compatibilidad alta";
+                    descripCompa.innerHTML = "En el plano sentimental tienen tan buenas perspectivas como en el caso anterior; además, se comprenden como nadie; y como tienen parecidas características y necesidades, sabrán cómo complacerse. Igualmente comparten el mismo criterio en lo que al dinero se refiere: gastar es equivalente a desprenderse de algo y lo evitan sea como sea (en realidad, son un poquito agarrados). En fin, dos Capricornios se comprenderán mutuamente como nadie. ¡Felicidades!";
+                }
+            }
         }
+       
     </script>
 
     <style>
