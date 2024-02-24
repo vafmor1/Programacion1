@@ -88,35 +88,86 @@
             }
         }
 
+
+        function calcularCompa() {
+            var signo1 = selectorSigno1.value;
+            var signo2 = selectorSigno2.value;
+
+            console.log("Consultadno compatibilidad entre: " + signo1 + " y " + signo2);
+
+            if ("acuario" && "acuario2") {
+                compa.innerHTML = "Compatibilidad media";
+                descripCompa.innerHTML = "Es posible que dos Acuario trabajando conjuntamente no consigan una fortuna, pero tampoco perderán el sueño por ello. Si hay algo que caracteriza a este signo es la falta de interés en los asuntos materiales y la necesidad de estar innovando continuamente, sobre todo, en todas aquellas actividades que estén relacionadas con el mundo de la investigación en cualquiera de sus posibles campos.";
+            }
+            else if ("acuario" && "piscis2") {
+                compa.innerHTML = "Compatibilidad media";
+                descripCompa.innerHTML = "Acuario es uno de los signos fijos dentro del zodiaco y Piscis es uno de los mutables dentro del mismo. De esta suerte, sus relaciones suelen ser o pueden ser bastante positivas, aunque tendrán que hacer algunos esfuerzos en ese sentido.";
+            }
+
+       
+        }
     </script>
 
     <style>
 
         body {
-            background-color: #EEEEEE;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            text-align: center;
         }
 
-        #icono {
-            position: relative;
-            width: 500px;
-            height: 350px;
-        }
-        h1 {
+        h1, h2 {
             color: #1C658C;
             background-color: white;
-            font-family: Verdana;
+            padding: 10px;
+            border-bottom: 2px solid #1C658C;
+            margin-bottom: 20px;
         }
+
         label {
             color: #1C658C;
-            font-family: Verdana;
+            font-weight: bold;
+            margin-right: 10px;
         }
-        button {
-            color: #12372A;
-            font-family: Verdana;
-        }
-        select{
-            width: 80px;
+
+        select {
+            width: 100px;
             height: 30px;
+            margin-bottom: 10px;
+        }
+
+        button {
+            background-color: #1C658C;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+            button:hover {
+                background-color: #12372A;
+            }
+
+        #icono {
+            width: 300px;
+            height: auto;
+            margin: 0 auto; /* Centro horizontalmente */
+            display: block; /* Para que el margin funcione,al especificar display: block;, estás cambiando el comportamiento predeterminado de 
+                la imagen de un elemento en línea a un elemento de bloque, lo que permite que el margen funcione correctamente */
+            margin-top: 20px;
+        }
+
+        #nombreSigno {
+            color: #1C658C;
+            margin-top: 20px;
+        }
+
+        #descripSigno {
+            color: #333;
+            margin-bottom: 50px;
         }
 
     </style>
@@ -176,8 +227,48 @@
     <button onclick="consultarHor()">
         Consultar horóscopo
     </button>
-    <img id="icono" src="img/zodiaco/indefinido.jpg"/>
+    <img id="icono" src="img/zodiaco/indefinido.jpg" />
     <h2 id="nombreSigno"></h2>
     <p id="descripSigno"></p>
+
+
+
+    <h2>Compatibilidad entre signos</h2> 
+    <label>Signo 1</label>
+    <select id="selectorSigno1">
+        <option value="acuario">Acuario</option>
+        <option value="piscis">Piscis</option>
+        <option value="aries">Aries</option>
+        <option value="tauro">Tauro</option>
+        <option value="geminis">Géminis</option>
+        <option value="cancer">Cáncer</option>
+        <option value="leo">Leo</option>
+        <option value="virgo">Virgo</option>
+        <option value="libra">Libra</option>
+        <option value="escorpio">Escorpio</option>
+        <option value="sagitario">Sagitario</option>
+        <option value="capricornio">Capricornio</option>
+    </select>
+
+    <label>Signo 2</label>
+    <select id="selectorSigno2">
+        <option value="acuario2">Acuario</option>
+        <option value="piscis2">Piscis</option>
+        <option value="aries2">Aries</option>
+        <option value="tauro2">Tauro</option>
+        <option value="geminis2">Géminis</option>
+        <option value="cancer2">Cáncer</option>
+        <option value="leo2">Leo</option>
+        <option value="virgo2">Virgo</option>
+        <option value="libra2">Libra</option>
+        <option value="escorpio2">Escorpio</option>
+        <option value="sagitario2">Sagitario</option>
+        <option value="capricornio2">Capricornio</option>
+    </select>
+    <button onclick="calcularCompa()">
+        Calcular compatibilidad
+    </button>
+    <h2 id="compa"></h2>
+    <p id="descripCompa"></p>
 </body>
 </html>
