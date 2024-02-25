@@ -581,31 +581,32 @@
     <style>
 
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            margin: 0;
-            padding: 0;
+            font-family: Verdana;
+            background-color: #EEF5FF;
             text-align: center;
         }
 
         h1, h2 {
             color: #1C658C;
-            background-color: white;
-            padding: 10px;
+            background-color: #B4D4FF;
+            padding: 30px;
             border-bottom: 2px solid #1C658C;
             margin-bottom: 20px;
+            font-family: Verdana;
         }
 
         label {
             color: #1C658C;
             font-weight: bold;
             margin-right: 10px;
+            font-family:Verdana;
         }
 
         select {
             width: 100px;
             height: 30px;
             margin-bottom: 10px;
+            font-family:Verdana;
         }
 
         button {
@@ -622,7 +623,7 @@
             }
 
         #icono {
-            width: 300px;
+            width: 500px;
             height: auto;
             margin: 0 auto; /* Centro horizontalmente */
             display: block; /* Para que el margin funcione,al especificar display: block;, estás cambiando el comportamiento predeterminado de 
@@ -633,13 +634,26 @@
         #nombreSigno {
             color: #1C658C;
             margin-top: 20px;
+            font-family:Verdana;
         }
 
         #descripSigno {
-            color: #333;
+            color: purple;
             margin-bottom: 50px;
+            font-family:Verdana;
         }
 
+        #descripCompa {
+            color: purple;
+            margin-bottom: 50px;
+            font-family: Verdana;
+        }
+
+        #compa {
+            color: #1C658C;
+            margin-top: 20px;
+            font-family: Verdana;
+        }
     </style>
 
 </head>
@@ -704,7 +718,7 @@
 
 
     <h2>Compatibilidad entre signos</h2> 
-    <label>Signo 1</label>
+    <label>Tu signo</label>
     <select id="selectorSigno1">
         <option value="acuario">Acuario</option>
         <option value="piscis">Piscis</option>
@@ -720,7 +734,7 @@
         <option value="capricornio">Capricornio</option>
     </select>
 
-    <label>Signo 2</label>
+    <label>Su signo</label>
     <select id="selectorSigno2">
         <option value="acuario2">Acuario</option>
         <option value="piscis2">Piscis</option>
