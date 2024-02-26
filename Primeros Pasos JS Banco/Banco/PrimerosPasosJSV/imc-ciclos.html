@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Índice de masa corporal</title>
+    <script>
+        var altura = 1.87;
+       // var IMC = Peso / (Altura * Altura);//
+        var categoria
+
+        console.log("Altura " + altura );
+
+        for (peso = 10; peso <= 200; peso++) {
+            var imc = peso / (altura * altura);
+        } if (peso > 67 && imc < 87) {
+            console.log("Peso: " + peso + " IMC: " + imc + " IMCnormal ");
+        } else if (imc > 88 && imc < 105) {
+            console.log("Peso: " + peso + " IMC: " + imc + " Sobrepeso ");
+        } else if (imc > 106 && imc < 200) {
+            console.log("Peso: " + peso + " IMC: " + imc + " Obesidad ");
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

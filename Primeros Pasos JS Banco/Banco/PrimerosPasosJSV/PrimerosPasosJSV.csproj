@@ -68,9 +68,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Cuenta de Banco.html" />
+    <Content Include="ejercicio-ciclos.html" />
     <Content Include="ejercicio-zodiaco.html" />
     <Content Include="ejercicio-condiciones.html" />
     <Content Include="Ejercios-Estructuras.html" />
+    <Content Include="imc-ciclos.html" />
     <Content Include="img\personajes\3DDKP17.png" />
     <Content Include="img\personajes\4EzaTxj.png" />
     <Content Include="img\personajes\8aGTvk9.png" />
@@ -96,6 +98,7 @@
     <Content Include="index.html" />
     <Content Include="pelea-dnd.html" />
     <Content Include="relaciones-estructuras.html" />
+    <Content Include="tablas-ciclos.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
