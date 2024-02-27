@@ -4,21 +4,30 @@
     <meta charset="utf-8" />
     <title>Índice de masa corporal</title>
     <script>
-        var altura = 1.87;
-       // var IMC = Peso / (Altura * Altura);//
-        var categoria
 
-        console.log("Altura " + altura );
-
-        for (peso = 10; peso <= 200; peso++) {
+        console.log("IMC");
+        for (var peso = 10; peso <= 200; peso++) {
+            var altura = 1.87;
             var imc = peso / (altura * altura);
-        } if (peso > 67 && imc < 87) {
-            console.log("Peso: " + peso + " IMC: " + imc + " IMCnormal ");
-        } else if (imc > 88 && imc < 105) {
-            console.log("Peso: " + peso + " IMC: " + imc + " Sobrepeso ");
-        } else if (imc > 106 && imc < 200) {
-            console.log("Peso: " + peso + " IMC: " + imc + " Obesidad ");
+
+            if (imc < 18.5 && imc < 24) {
+                console.log("Peso normal.")
+            }
+            else if (imc > 25 && imc < 29) {
+                console.log("Sobrepeso.")
+            }
+            else if (imc > 30 && imc < 34) {
+                console.log("Obesidad clase I.")
+            }
+            else if (imc > 35 && imc < 39) {
+                console.log("Obesidad clase II.")
+            }
+            else if (imc > 40) {
+                console.log("Obesidad clase III.")
+            }
+            console.log("IMC de personas de " + altura + " y pesa " + peso + " IMC " + imc + " Tu diagnostico es: ")
         }
+
     </script>
 </head>
 <body>
