@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="cuadros-con-ciclos.html" />
     <Content Include="Cuenta de Banco.html" />
     <Content Include="ejercicio-ciclos.html" />
     <Content Include="ejercicio-zodiaco.html" />
