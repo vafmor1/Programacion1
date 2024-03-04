@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="cuadros-con-ciclos.html" />
     <Content Include="Cuenta de Banco.html" />
+    <Content Include="ejercicio-arreglos-listas.html" />
     <Content Include="ejercicio-ciclos.html" />
     <Content Include="ejercicio-zodiaco.html" />
     <Content Include="ejercicio-condiciones.html" />
