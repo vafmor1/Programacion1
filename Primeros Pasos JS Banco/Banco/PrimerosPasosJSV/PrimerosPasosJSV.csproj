@@ -99,6 +99,7 @@
     <Content Include="img\zodiaco\virgo.jpg" />
     <Content Include="index.html" />
     <Content Include="pelea-dnd.html" />
+    <Content Include="practica-dialogo.html" />
     <Content Include="relaciones-estructuras.html" />
     <Content Include="tablas-ciclos.html" />
     <Content Include="Web.config" />
