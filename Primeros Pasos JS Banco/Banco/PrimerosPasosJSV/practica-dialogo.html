@@ -3,8 +3,36 @@
 <head>
     <meta charset="utf-8" />
     <title>Diálogo usando estructuras, arreglos e interfaz HTML</title>
+    <script>
+
+        var dialogo = [
+            {
+                personaje: "Banzai",
+                color: "#FF5733",
+                texto: "blaba"
+            },
+            {
+                personaje: "Ed",
+                color: "#2093D1",
+                texto: "blaba"
+            }
+        ];
+
+        var indiceDialogo = 0;
+        function leerSiguiente() { 
+            if (indiceDialogo < dialogo.length) {
+                var dialogoTexto = dialogo[indiceDialogo];
+                console.log(dialogoTexto.personaje + ": " + dialogoTexto.texto);
+                indiceDialogo++;
+            } else {
+                alert("Fin del diálogo.");
+            }
+            return leerSiguiente;
+        }
+    </script>
 </head>
 <body>
-
+    <h1>Diálogo</h1>
+    <button onclick="leerSiguiente()">Continuar</button>
 </body>
 </html>
