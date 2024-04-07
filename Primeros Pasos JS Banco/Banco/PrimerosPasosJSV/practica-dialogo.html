@@ -8,152 +8,152 @@
         var dialogo = [
             {
                 personaje: "Banzai",
-                color: "#FF5733",
+                color: "#FFC300",
                 texto: "Chispas, ese Mufasa, no me podré sentar en una semana"
             },
             {
                 personaje: "Ed",
-                color: "#2093D1",
+                color: "#71C8F7",
                 texto: "(ríe a carcajadas)"
             },
             {
                 personaje: "Banzai",
-                color: "#FF5733",
+                color: "#FFC300",
                 texto: "Ah, ya cállate (golpea a Ed y este cae lentamente)"
             },
             {
                 personaje: "Shenzi",
-                color: "#D1204E",
+                color: "#BAF74D",
                 texto: "¡Qué barbaridad! Con razón estamos al final de la cadena alimenticia"
             },
             {
                 personaje: "Banzai",
-                color: "#FF5733",
+                color: "#FFC300",
                 texto: "Me chocan las cadenas"
             },
             {
                 personaje: "Shenzi",
-                color: "#D1204E",
+                color: "#BAF74D",
                 texto: "De no ser por esos apestosos leones seríamos dueños del rancho"
             },
             {
                 personaje: "Banzai",
-                color: "#FF5733",
+                color: "#FFC300",
                 texto: "Bah! Me chocan los leones"
             },
             {
                 personaje: "Shenzi",
-                color: "#D1204E",
+                color: "#BAF74D",
                 texto: "Son molestos..."
             },
             {
                 personaje: "Banzai",
-                color: "#FF5733",
+                color: "#FFC300",
                 texto: "Y peludos..."
             },
             {
                 personaje: "Shenzi",
-                color: "#D1204E",
+                color: "#BAF74D",
                 texto: "Y gruñones..."
             },
             {
                 personaje: "Banzai",
-                color: "#FF5733",
+                color: "#FFC300",
                 texto: "Y además son tan..."
             },
             {
                 personaje: "Ambos",
-                color: "#EE12EB",
+                color: "#F0C320",
                 texto: "Feos (los dos se matan de la risa, cuando son interrumpidas por Scar)"
             },
             {
                 personaje: "Scar",
-                color: "#EE1C12",
+                color: "#F07520",
                 texto: "Yo no creo que los leones seamos tan terribles"
             },
             {
                 personaje: "Shenzi",
-                color: "#D1204E",
+                color: "#BAF74D",
                 texto: "Scar... eres tú, creímos que era alguien importante..."
             },
             {
                 personaje: "Banzai",
-                color: "#FF5733",
+                color: "#FFC300",
                 texto: "Alguien como Mufasa..."
             },
             {
                 personaje: "Scar",
-                color: "#EE1C12",
+                color: "#F07520",
                 texto: "Ah, si..."
             },
             {
                 personaje: "Banzai",
-                color: "#FF5733",
+                color: "#FFC300",
                 texto: "Ese si es poder"
             },
             {
                 personaje: "Shenzi",
-                color: "#D1204E",
+                color: "#BAF74D",
                 texto: "Es verdad, oigo el nombre y tiemblo"
             },
             {
-            personaje: "Banzai",
-            color: "#FF5733",
-            texto: "Mufasa (la Hiena tirita)"
+                personaje: "Banzai",
+                color: "#FFC300",
+                texto: "Mufasa (la Hiena tirita)"
             },
             {
                 personaje: "Shenzi",
-                color: "#D1204E",
+                color: "##BAF74D",
                 texto: "Ahhh!!... otra vez"
             },
             {
                 personaje: "Banzai",
-                color: "#FF5733",
+                color: "#FFC300",
                 texto: "Mufasa (tirita) Mufasa, Mufasa..."
             },
             {
                 personaje: "Scar",
-                color: "#EE1C12",
-                texto: "Ah! Estoy Rodeado de tontos"
+                color: "#F07520",
+                texto: "Ah! estoy rodeado de tontos"
             },
             {
                 personaje: "Banzai",
-                color: "#FF5733",
+                color: "#FFC300",
                 texto: "Scar tú eres de los nuestros, eres nuestro amigo"
             },
             {
                 personaje: "Scar",
-                color: "#EE1C12",
+                color: "#F07520",
                 texto: "Claro"
             },
             {
                 personaje: "Shenzi",
-                color: "#D1204E",
+                color: "#BAF74D",
                 texto: "Eso me gusta, no es rey pero es tan bien educado..."
             },
             {
                 personaje: "Banzai",
-                color: "#FF5733",
+                color: "#FFC300",
                 texto: "Oye, nos trajiste algo de comer Scar, hermano, amigo, viejito, compadre, cuate..."
             },
             {
                 personaje: "Scar",
-                color: "#EE1C12",
+                color: "#F07520",
                 texto: "No creo que merezcan... eso. Les envolví como regalo a esos dos cachorros y no pudieron eliminarlos..."
             },
             {
                 personaje: "Shenzi",
-                color: "#D1204E",
+                color: "#BAF74D",
                 texto: "Bueno, es que no vinieron solos Scar..."
             },
             {
                 personaje: "Banzai",
-                color: "#FF5733",
+                color: "#FFC300",
                 texto: "¿Qué íbamos a hacer? ¿Matar a Mufasa?"
             },
             {
                 personaje: "Scar",
-                color: "#EE1C12",
+                color: "#F07520",
                 texto: "Precisamente..."
             },
         ];
@@ -164,23 +164,20 @@
                 var dialogoTexto = dialogo[indiceDialogo];
                 console.log(dialogoTexto.personaje + ": " + dialogoTexto.texto);
 
-                // Crear un nuevo elemento div
-                var nuevoDiv = document.createElement("div");
-                nuevoDiv.className = "itemDialogo"; // Agregar la clase para darle estilo
+                var contenedor = document.createElement("div");
+                contenedor.className = "itemDialogo";
 
-                // Crear elementos para mostrar el personaje y el texto
                 var nombrePersonaje = document.createElement("label");
-                nombrePersonaje.innerHTML = dialogoTexto.personaje;
-                var textoDialogo = document.createElement("p");
-                textoDialogo.innerHTML = dialogoTexto.texto;
+                nombrePersonaje.innerHTML = dialogoTexto.personaje + ": ";
 
-                // Agregar los elementos al nuevo div
-                nuevoDiv.appendChild(nombrePersonaje);
-                nuevoDiv.appendChild(textoDialogo);
+                var parrafo = document.createElement("p");
+                parrafo.innerHTML = dialogoTexto.texto
 
-                // Obtener el contenedor de diálogo y añadir el nuevo div
-                var contenedorDialogo = document.getElementById("contenedorDialogo");
-                contenedorDialogo.appendChild(nuevoDiv);
+                contenedor.style.backgroundColor = dialogoTexto.color;
+                contenedor.appendChild(nombrePersonaje);
+                contenedor.appendChild(parrafo);
+                // Añadir el nuevo div al contenedor de diálogo
+                document.getElementById("contenedorDialogo").appendChild(contenedor);
 
                 indiceDialogo++;
             } else {
@@ -192,22 +189,60 @@
 
         #contenedorDialogo {
             justify-content: center;
-            border-style: solid;
+            border-style: dashed;
             border-width: 5px;
-            border-color: #455A64;
-            background-color: #9DE7F0;
+            border-color: #FF5733;
+            background-color: #DAF7A6;
             width: 450px;
+            height: 500px;
+            overflow-y: scroll;
             position: center;
+            margin: 0 auto;
         }
-        #p {
-            background-color: #29B6F6;
-            color: #E0E0E0;
+        .itemDialogo {
+            margin: 10px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        #continuar {
+            background-color: #206F91;
+            color: white;
+            font-size: 15px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            cursor: pointer;
+            position: center;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 15px;
+        }
+        h1 {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            position: center;
+            color: #0F839C;
+            font-size: 30px;
+        }
+        label {
+            color: #1C658C;
+            font-weight: bold;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        p {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            position: center;
+           /*border-style: solid;
+            border-width: 2px;
+            border-color: #B9FC31;*/
+
+        }
+        body {
+            margin: 0;
+            text-align: center; /* Centra horizontalmente el contenido */
         }
     </style>
 </head>
 <body>
     <h1>Diálogo</h1>
-    <button onclick="leerSiguiente()">Continuar</button>
     <div id="contenedorDialogo"></div>
+    <button id="continuar" onclick="leerSiguiente()">Continuar</button>
 </body>
 </html>
