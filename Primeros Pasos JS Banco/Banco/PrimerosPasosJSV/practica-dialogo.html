@@ -5,7 +5,7 @@
     <title>Diálogo usando estructuras, arreglos e interfaz HTML</title>
     <script>
 
-        var dialogo = [
+        var dialogo = [ //arreglo con corchetes, una lista, cada uno es un elemento//
             {
                 personaje: "Banzai",
                 color: "#FFC300",
@@ -103,7 +103,7 @@
             },
             {
                 personaje: "Shenzi",
-                color: "##BAF74D",
+                color: "#BAF74D",
                 texto: "Ahhh!!... otra vez"
             },
             {
@@ -161,19 +161,20 @@
         var indiceDialogo = 0;
         function leerSiguiente() {
             if (indiceDialogo < dialogo.length) {
-                var dialogoTexto = dialogo[indiceDialogo];
-                console.log(dialogoTexto.personaje + ": " + dialogoTexto.texto);
+                var dialogoEntrada = dialogo[indiceDialogo];
+                console.log(dialogoEntrada.personaje + ": " + dialogoEntrada.texto);
 
                 var contenedor = document.createElement("div");
                 contenedor.className = "itemDialogo";
 
                 var nombrePersonaje = document.createElement("label");
-                nombrePersonaje.innerHTML = dialogoTexto.personaje + ": ";
+                nombrePersonaje.innerHTML = dialogoEntrada.personaje + ": ";
 
                 var parrafo = document.createElement("p");
-                parrafo.innerHTML = dialogoTexto.texto
+                parrafo.innerHTML = dialogoEntrada.texto
 
-                contenedor.style.backgroundColor = dialogoTexto.color;
+                contenedor.style.backgroundColor = dialogoEntrada.color;
+                //otra opción * contenedor.style = "background color" + dialogoEntrada.color//
                 contenedor.appendChild(nombrePersonaje);
                 contenedor.appendChild(parrafo);
                 // Añadir el nuevo div al contenedor de diálogo
@@ -186,28 +187,31 @@
         }
     </script>
     <style>
-
+        body {
+            background-color: #FFF8DC;
+        }
         #contenedorDialogo {
             justify-content: center;
             border-style: dashed;
             border-width: 5px;
             border-color: #FF5733;
             background-color: #DAF7A6;
-            width: 450px;
-            height: 500px;
+            max-width: 450px;
+            height: 700px;
             overflow-y: scroll;
             position: center;
             margin: 0 auto;
+            border-radius: 20px;
         }
         .itemDialogo {
             margin: 10px;
             padding: 10px;
-            border-radius: 5px;
+            border-radius: 0 15px 15px 15px;
         }
         #continuar {
             background-color: #206F91;
             color: white;
-            font-size: 15px;
+            font-size: 18px;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             cursor: pointer;
             position: center;
@@ -219,7 +223,7 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             position: center;
             color: #0F839C;
-            font-size: 30px;
+            font-size: 35px;
         }
         label {
             color: #1C658C;
@@ -243,6 +247,6 @@
 <body>
     <h1>Diálogo</h1>
     <div id="contenedorDialogo"></div>
-    <button id="continuar" onclick="leerSiguiente()">Continuar</button>
+    <button id="continuar" onclick="leerSiguiente()">Continuar</button>  
 </body>
 </html>
