@@ -75,6 +75,11 @@
     <Content Include="ejercicio-condiciones.html" />
     <Content Include="Ejercios-Estructuras.html" />
     <Content Include="imc-ciclos.html" />
+    <Content Include="img\dialogo\ambos.png" />
+    <Content Include="img\dialogo\banzai.png" />
+    <Content Include="img\dialogo\ed.jfif" />
+    <Content Include="img\dialogo\scar.jfif" />
+    <Content Include="img\dialogo\shenziicon.png" />
     <Content Include="img\personajes\3DDKP17.png" />
     <Content Include="img\personajes\4EzaTxj.png" />
     <Content Include="img\personajes\8aGTvk9.png" />
