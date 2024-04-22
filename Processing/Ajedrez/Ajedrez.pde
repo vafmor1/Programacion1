@@ -19,7 +19,7 @@ background(#000000);
         cuadroColor = (#000000);   // Negro
       }
       fill(cuadroColor);
-      // Dibujar el cuadro
+      
       rect(j * tamaño, i * tamaño, tamaño, tamaño);
       //rect(a, b, c, d)
       //rect(x, y, ancho, alto)
