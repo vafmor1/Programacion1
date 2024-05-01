@@ -25,5 +25,8 @@ for(int i= 1; i < 5; i++) {
   line(xInterm, yInterm, centroX, y);
   line(centroX, y, centroX - sep45grados * i, centroY + sep45grados * i);
   line(centroX - sep45grados * i, centroY + sep45grados * i, centroX - separacion * i , centroY);
-  line(centroX - separacion * i , centroY,centroX - separacion * i , centroY);
+  line(centroX - separacion * i , centroY, centroX - sep45grados * i, centroY - sep45grados * i);
+  line(centroX - sep45grados * i, centroY - sep45grados * i, centroX, centroY - separacion * i );
+  line(centroX, centroY - separacion * i, centroX + sep45grados * i, centroY - sep45grados * i );
+  line(centroX + sep45grados * i, centroY - sep45grados * i, centroX + separacion * i, centroY);
 }
